@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>CaixaBank Comunicación</title>
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	<!--<meta http-equiv="refresh" content="5">-->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+	<header>
+			<div class="fixed-index">
+					<div class="menu">
+						<div class="show-menu">
+							<a href="#" class="box-shadow-menu"><p>Menú</p></a>
+							<div class="menuList">
+								<ul>
+									<li><a href="index.html">Inicio</a></li>
+									<li class="borderDown"><a href="#">Sobre Nosotros</a>
+										<ul><li><a href="#">Corporativo</a></li>
+											<li><a href="#">Calidad</a></li>
+											<li><a href="#">Banca Responsable</a></li>
+											<li><a href="#">Personas</a></li>
+											<li><a href="#">Innovación</a></li>
+										</ul>
+									</li>
+									<li class="borderDown"><a href="#">Patrocinios</a>
+										<ul><li><a href="#">Nuestros Patrocinios</a></li>
+											<li><a href="#">Baloncesto</a></li>
+										</ul>
+									</li>
+									<li><a href="#">Noticias</a></li>
+									<li><a href="#">Recursos Multimedia</a></li>
+									<li><a href="#">Social Media</a></li>
+									<li><a href="#">Contacto</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+
+					<div class="logoHeader">
+						<a href="index.html"><img src="img/header/logo_comunicacion_es.png" alt=""></a>
+					</div>
+
+					<div class="headerRight">
+						<div class="searchForm">
+							<form name="search" action="" method="POST">
+								<input class="search_input" type="text" name="" placeholder="Buscar contenidos...">
+								<div class="submit-form-search"> 
+									<a>
+										<img src="img/imgCalidad/icon_search.png" alt="">
+									</a>
+								</div>
+							</form>
+						</div>
+						
+						<div class="rss">
+							<ul>
+								<li><a href="https://www.caixabank.com/aplnr/comunicacion/buscador/servicio.noticiasRSS_es.html"><img src="img/header/icon_sub.png" alt=""></a></li>
+								<li><a href="#"><img src="img/header/icon_rss2.png" alt=""></a></li>
+							</ul>	
+						</div>
+						<div class="selectLang">
+							<form>
+								<select  name="languageSelector">
+									<option value="CAS" selected>CAS</option>
+									<option value="CAT">CAT</option>
+									<option value="ENG">ENG</option>
+								</select>
+							</form>
+						</div>
+					</div>
+			</div>
+		</header>
+	
+	<div class="index_content">
+		
+		<div id="myCarousel" class="carousel"><!--carousel-->
+		   	<ol class="carousel-indicators">
+		    	<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+		    	<li data-target="#myCarousel" data-slide-to="1"></li>
+		    	<li data-target="#myCarousel" data-slide-to="2"></li>
+		    	<li data-target="#myCarousel" data-slide-to="3"></li>
+		  	</ol>
+
+		  	<div class="carousel-inner">
+				<div class="item active">
+					<img src="img/bannerImg/bannerHomeB2.jpg" alt="">
+				</div>
+				<div class="item">
+					<img src="img/bannerImg/bannerInnov1.jpg" alt="">
+				</div>
+				<div class="item">
+					<img src="img/bannerImg/murcia.jpg" alt="">
+				</div>
+				<div class="item">
+					<img src="img/bannerImg/NEF7240B.jpg" alt="">
+				</div>
+
+				 <!--controls -->
+			  	<a class="left carousel-control" href="#myCarousel" data-slide="prev">
+			    	<span class="glyphicon glyphicon-chevron-left"></span>
+			    	<span class="sr-only">Previous</span>
+			  	</a>
+			  	<a class="right carousel-control" href="#myCarousel" data-slide="next">
+			    	<span class="glyphicon glyphicon-chevron-right"></span>
+			    	<span class="sr-only">Next</span>
+			  	</a>
+			</div>
+		</div>
+	
+		<section class="last_news">
+				<h1>Últimas noticias</h1>
+				<div class="news"></div><!--aqui se pintan las noticias con js --><!-- Porque no maquetas tu las noticias?? -->
+		</section>
+
+		<section class="twitter">
+			<div></div><!--aqui se pintan los comentarios de twitter--><!-- Porque no maquetas tu twitter?? -->
+		</section>
+
+		<div class="middle_content">
+			<section class="agenda"></section><!--aqui se pinta la presentacion de resultados con js --><!-- Porque no maquetas tu los resultados?? -->
+
+			<section class="one_right_part">
+					<h2>Sabías qué...?</h2>
+					<img src="img/imgIndex/CB_REDES_TORRE_360x340_CAST3.gif" alt=""/><!--puede ser un video/imagen-->
+			</section>
+		</div>
+
+		<section class="two_images">
+			<div class="left_part">
+				<div class="left_text_img"><!--porque pones en la clase img?? si no hay imagen dentro--><!--es el texto que va encima de la imagén por eso le pusé img-->
+					<h3>¿Conoces las ventajas de ser accionista?</h3>
+					<p>Accede al espacio del accionista<br> y descubre las iniciativas a tu<br> alcance</p>
+				</div>
+				<img src="img/imgIndex/CB_inf_540x174_102_ES.png" alt="">
+			</div>
+					
+			<div class="right_part">
+				<img src="img/imgIndex/esp-540x193-Best-Digital-Bank-Euromoney2.gif" alt="">
+			</div>
+		</section>
+		
+	</div>
+
+	 <footer>
+			<div class="footerUp">
+				<div class="contenedor-footerUp">
+					<div class="footer-left">
+						<h2>Textos Legales</h2>
+						<ul>
+							<li><a href="#">CaixaBank, S.A. 2016</a></li>
+							<li><a href="#">Informació legal sobre CaixaBank, SA</a></li>
+							<li><a href="#">Aviso legal</a></li>
+							<li><a href="#">Política de cookies</a></li>
+							<li><a href="#">Privacidad y tratamiento de datos personales</a></li>	
+						</ul>			
+					</div>
+					
+					<div class="footer-center">
+						<h2>Webs destacadas</h2>
+						<ul>
+							<li><a href="#">CaixaBank Corporativo</a></li>
+							<li><a href="#">CaixaBank Comercial</a></li>
+							<li><a href="#">CaixaBank Research</a></li>
+							<li><a href="#">VidaCaixa</a></li>
+							<li><a href="#">MicroBank</a></li>
+							<li><a href="#">CriteriaCaixa</a></li>
+							<li><a href="#">Fundación Bancaria "la Caixa"</a></li>
+						</ul>
+					</div>
+					
+					<div class="footer-right">
+						<h2>Salas de prensa</h2>
+						<ul>
+							<li><a href="#">CriteriaCaixa</a></li>
+							<li><a href="#">Obra social</a></li>
+							<li><a href="#">VidaCaixa</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+
+			<div class="footerDown">
+				<div class="contenedor-footerDown">
+					<div class="footerImg">
+						<a href="https://www.caixabank.com/comunicacion/index_es.html"><img src="img/logo_footer.png" alt=""></a>
+						<div class="footerText">
+							<ul>
+								<li><a href="#">Mapa del Sitio </a></li>
+								<li><a href="#"> Contacto</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="redes">
+						<ul>
+							<li><a href="#"><img src="img/footer/icon_blog.png" alt=""></a></li>
+							<li><a href="#"><img src="img/footer/icon_twitter.png" alt=""></a></li>
+							<li><a href="#"><img src="img/footer/icon_facebook.png" alt=""></a></li>
+							<li><a href="#"><img src="img/footer/icon_youtube.png" alt=""></a></li>
+							<li><a href="#"><img src="img/footer/icon_linkedin.png" alt=""></a></li>
+							<li><a href="#"><img src="img/footer/icon_google.png" alt=""></a></li>
+							<li><a href="#"><img src="img/footer/icon_pint.png" alt=""></a></li>
+							<li><a href="#"><img src="img/footer/icon_rss.png" alt=""></a></li>
+						</ul>
+					</div>
+				</div>	
+			</div>
+		</footer>
+	</body>
+</html>
