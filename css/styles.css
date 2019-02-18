@@ -666,6 +666,22 @@ footer {
 	margin-top:  15px;
 }
 
+/*news*/
+.news {
+	width:  80%;
+	margin:  25px 10%;
+}
+
+.news-25 {
+	width: 25%;
+}
+
+.news-50 {
+	width:  50%;
+}
+
+/*fin news*/
+
 .Main-container {
 	width:  90%;
 	margin:  0 5%;
