@@ -10,7 +10,7 @@
 *, *::before, *::after {box-sizing: border-box;}
 
 /**HEADER**/
-.last_news h1 {
+.last_news_index h1 {
 	text-align:  center;
 	font-size: 2em;
 }
@@ -211,9 +211,9 @@ header{
 	height:  450px;
 }
 
-.news {
+.last_news_index {
 	width:  100%;
-	height:  300px;
+	height:  100vh;
 }
 
 .twitter {
@@ -301,7 +301,7 @@ header{
 
 /*calidad*/
 .section_h2 {
-	margin-top:  95px;
+	margin-top:  105px;
 }
 
 .text_center_bold_margin {
@@ -489,10 +489,6 @@ header{
 	text-decoration: underline;
 }
 
-.last_news {
-	height: 350px;
-}
-
 .separator {
 	width:  100%;
 	height: 20px;
@@ -667,17 +663,41 @@ footer {
 }
 
 /*news*/
-.news {
+.news_row_index {border:  1px solid green;
 	width:  80%;
-	margin:  25px 10%;
+	margin:  30px 10%;
+	height:  100vh;
 }
 
-.news-25 {
-	width: 25%;
+.news_25 {border:  1px solid red;
+	display:  inline-block;
+	width: 255px;
+	height:  330px;
+	margin:  5px;
 }
 
-.news-50 {
-	width:  50%;
+.news_50 {border:  1px solid blue;
+	width:  541px;
+	height:  330px;
+	margin:  5px;
+	display:  inline-block;
+}
+
+.news_index .news_row_index div.news_img1 {
+	background-image: url("img/imgIndex/news/64916.jpg");
+}
+
+.news_img2 {
+	background-image: url("img/imgIndex/news/64922.jpg");
+}
+
+.news_img3 {
+	background-image: url("img/imgIndex/news/cab.jpg");
+}
+
+.news_img1 a {
+	width:  100%;
+	height: 100%;
 }
 
 /*fin news*/
@@ -801,15 +821,12 @@ footer {
 	width:  100%;
 }
 
-.inconform_video, .compromet_video {
+.paralympics_video {
 	width:  100%;
 	clear:  both;
 }
-.inconform_video {
-	 padding-top:  50px;
-}
 
-.inconform_video iframe, .compromet_video iframe {
+.paralympics_video iframe {
 	width:  100%;
 	height:  400px;
 }
@@ -828,6 +845,10 @@ footer {
 
 .margin_10 {
 	margin:  0 10%;
+}
+
+.margin_15 {
+	margin:  0 15%;
 }
 
 .title {
