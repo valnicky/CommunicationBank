@@ -671,28 +671,29 @@ footer {
 
 .news_25 {border:  1px solid red;
 	display:  inline-block;
-	width: 255px;
-	height:  330px;
+	
 	margin:  5px;
 }
 
 .news_50 {border:  1px solid blue;
-	width:  541px;
-	height:  330px;
+	
 	margin:  5px;
 	display:  inline-block;
 }
 
-.news_index .news_row_index div.news_img1 {
-	background-image: url("img/imgIndex/news/64916.jpg");
+.news_index .news_row_index div.news_img1 img{
+	width: 255px;
+	height:  330px;
 }
 
-.news_img2 {
-	background-image: url("img/imgIndex/news/64922.jpg");
+.news_img2 img{
+	width:  541px;
+	height:  330px;
 }
 
-.news_img3 {
-	background-image: url("img/imgIndex/news/cab.jpg");
+.news_img3 img{
+	width: 255px;
+	height:  330px;
 }
 
 .news_img1 a {
