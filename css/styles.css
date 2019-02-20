@@ -653,7 +653,7 @@ footer {
 	width: 164px;
 	float: left;
 	text-align: center;
-	background-color:  #ccc;
+	background-color:   #e2e2e2;
 	padding:  33px 0;
 }
 
@@ -685,6 +685,25 @@ footer {
 .agenda_img, .agenda_fecha, .agenda_text, .agenda_txt {
 	height: 132px;
 	display:  inline-block;
+}
+
+.agenda_txt1 {
+	position: relative;
+    margin-top: 0px;
+    margin-right: 0;
+}
+
+.agenda_draw {
+	position: absolute;
+	z-index:  9999;
+	margin-top: 40px;
+	width:  0;
+	height:  0;
+	display:  inline-block;
+	border-left: 25px solid #e2e2e2;
+    border-top: 25px solid transparent;
+    border-bottom: 25px solid transparent;
+    border-right: 25px solid transparent;
 }
 
 .two_images {
