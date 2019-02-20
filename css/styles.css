@@ -604,8 +604,9 @@ footer {
 /*middle content INDEX*/
 .title_h2 {
 	color:  grey;
-	text-align:  center;
+	text-align:  left;
 	font-size:  1.5em;
+	font-weight: 500;
 }
 
 .one_right_part {
@@ -617,44 +618,79 @@ footer {
 }
 
 .middle_content {
-	margin:  10px 15%;
+	margin:  10px 10%;
 }
 
-.agenda {border:  1px solid blue;
+.agenda {
 	float:  left;
-	width:  50%;
+	width:  60%;
 }
 
-.caja_agenda {border:  1px solid red;
+.middle_content_agenda {
+	border:  1px solid #ccc;
+}
+
+.caja_agenda {
 	width:  100%;
-	margin:  10px auto;
 }
 
 .agenda_img {
-	width:  180px;
+	width: 188px;
+    
+    margin: 0;
+    float: left;
+}
+
+.agenda_txt {
+	width: 220px;
+    font-size: 0.7em;
+    padding: 20px 0 14px 35px;
 }
 
 .agenda_text {
-	width: 180px;
-	height:  100%;
+	font-size: 0.9em;
+    font-weight: 600;
+	width: 164px;
+	float: left;
+	text-align: center;
+	background-color:  #ccc;
+	padding:  33px 0;
 }
 
 .agenda_fecha {
+	padding: 18px 5px;
 	font-size:  2em;
 	text-align:  center;
 	width:  100px;
+	float:  left;
 	color:  #fff;
 	background-color: #5ea9dd ;
 }
 
-.agenda_img, .agenda_fecha, .agenda_text {
+.agenda_day {
+	font-size: 1.5em;
+	margin:  0;
+}
+
+.agenda_hr {
+	width: 60%;
+	margin:  0 auto;
+}
+
+.agenda_month {
+	font-size: 0.6em;
+	text-transform: uppercase;
+}
+
+.agenda_img, .agenda_fecha, .agenda_text, .agenda_txt {
+	height: 132px;
 	display:  inline-block;
 }
 
 .two_images {
 	height:  200px;
 	clear:  both;
-	margin:  10px 15%;
+	margin:  10px 10%;
 }
 
 .left_part {
@@ -756,7 +792,7 @@ footer {
 	padding: 10px 5px;
 }
 
-.contactanos_text h2, .title_h2 {
+.contactanos_text h2 {
 	font-weight: 600;
 	font-size:  2rem;
 }
