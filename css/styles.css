@@ -225,7 +225,8 @@ header{
 
 .patrocinios_slider_content {
 	clear:  both;
-	margin:  250px auto;
+	padding: 25px 0;
+	height:  100%;
 }
 
 /*calidad*/
@@ -599,7 +600,7 @@ footer {
 
 /**fin FOOTER**/
 
- .nuestros_patrocinios_content, .contacto_content, .paralympics_content, .calidad_content {
+ .nuestros_patrocinios, .contacto_content, .paralympics_content, .calidad_content {
 	width:  100%;
 } 
 
@@ -728,7 +729,7 @@ footer {
 	margin:  10px 10%;
 }
 
-.left_part {
+.two_images_left {
 	display:  inline-block;
 	width:  47%;
 	float:  left;
@@ -737,12 +738,12 @@ footer {
 	margin-right:  10px;
 }
 
-.left_text_img {
+.two_images_left_text {
 	position:  absolute;
 	margin-left: 15px ;
 }
 
-.right_part {
+.two_images_right {
 	display:  inline-block;
 	width:  47%;
 	float:  left;
@@ -750,22 +751,26 @@ footer {
 	margin-left:  10px;
 }
 
-.left_text_img h3 {
+.two_images_left_title {
 	font-weight:  700;
 	font-size:  1.2em;
 	text-transform: uppercase;
 }
 
-.right_part img, .left_part img {
+.two_images_img {
 	width:  100%;
 }
 
 
 /*news*/
 .news_index_content {
-	width:  80%;
-	margin:  30px 10%;
+	width:  90%;
+	margin:  30px 5%;
 	height:  100%;
+}
+
+.news_index_content:nth-child(4) {
+	display:  block;
 }
 
 .news_25, .news_50 {
@@ -820,32 +825,32 @@ footer {
 }
 
 /*CONTACTO*/
-.contactanos_text {
+.contact_text {
 	text-align: center;
-	margin: 90px auto 50px;
+	margin: 90px auto 5px;
 	width:  40%;
-	padding: 10px 5px;
 }
 
-.contactanos_text h2 {
+.contact_h2 {
 	font-weight: 600;
 	font-size:  2rem;
+	text-align: center;
 }
-.contactanos_text span {
+.contact_span {
 	font-weight: 700;
 }
 
-.contactanos_text a {
+.contact_link {
 	color: #33adde;
 }
 
 .directores {
 	width:  90%;
 	margin:  25px auto;
-	padding:  10px 5px;
+	margin:  10px 5%;
 }
 
-.directores .cajaDirectores{
+.directores .caja_directores{
 	background-color: #33adde;
 	width:  30%;
 	height:  110px;
@@ -855,19 +860,16 @@ footer {
 	overflow:hidden;
 }
 
-.directores .cajaDirectores p {
+.p_directores {
 	padding-left:  7px;
-}
-
-.directores .cajaDirectores h3{
-	font-size:  1em;
-	font-weight: bold;
+	font-style: italic;
+	font-size:  14px;
 	margin:  10px;
 }
 
-.directores .cajaDirectores p:last-child{
-	font-style: italic;
-	font-size:  14px;
+.titulo_directores {
+	font-size:  1em;
+	font-weight: bold;
 	margin:  10px;
 }
 
