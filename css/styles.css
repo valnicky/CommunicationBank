@@ -229,6 +229,7 @@ header{
 }
 
 /*calidad*/
+
 .section_h2 {
 	margin-top:  105px;
 }
@@ -253,37 +254,52 @@ header{
 	padding-bottom: 25px;
 }
 
-.img_calidad {
+.main_figures_img {
 	margin:  15px auto;
+	width: 100%;
 }
 
-.img_calidad1, .img_calidad2, .img_calidad3{
+.main_figures_img1, .main_figures_img2, .main_figures_img3{
+	margin:  15px auto;
 	display:  inline-block;
-	width:  22%;
+	width:  33%;
 	height:  450px;
-	margin:  20px 5%;
+	padding:  20px 0;
 	text-align:  center;
 	float:  left;
+	background-color: beige;
 }
 
-.img_calidad1 p, .img_calidad2 p, .img_calidad3 p{
+.main_figures_text {
+	margin:  15px auto;
 	color: #0097d4;
 	font-size: 1.5em;
 	font-weight: 600;
 	text-align: center;
+	width:  60%;
 }
 
-.img_calidad1 p span, .img_calidad2 p span, .img_calidad3 p span{
+.main_figures_span {
 	color: #f56e6e ;
 	font-size:  2em;
 	font-style: italic;
 	font-weight: 600;
 }
 
-.img_grafico {
+.graphic_section {
 	width:  100%;
 	clear:  both;
-	height:  250px;
+	margin:  5px auto;
+	height:  100%;
+}
+
+.graphic_bgd {
+	background-color: #eee;
+}
+
+.graphic_img {
+	width:  80%;
+	margin: 60px 10% ;
 }
 
 .banca_personalizada {
