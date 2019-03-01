@@ -1,363 +1,377 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Banca Responsable</title>
-	<link rel="stylesheet" type="text/css" href="css/styles.css">
-	<!--<meta http-equiv="refresh" content="5">-->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Banca Responsable</title>
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <!--<meta http-equiv="refresh" content="5">-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
 
 <body>
-	<header>
-			<div class="fixed">
-					<div class="menu">
-						<div class="show-menu">
-							<a href="#" class="box-shadow-menu"><p>Menú</p></a>
-							<div class="menuList">
-								<ul>
-									<li><a href="/index.html">Inicio</a></li>
-									<li class="borderDown"><a href="#">Sobre Nosotros</a>
-										<ul><li><a href="#">Corporativo</a></li>
-											<li><a href="Calidad.html">Calidad</a></li>
-											<li><a href="#">Banca Responsable</a></li>
-											<li><a href="#">Personas</a></li>
-											<li><a href="#">Innovación</a></li>
-										</ul>
-									</li>
-									<li class="borderDown"><a href="#">Patrocinios</a>
-										<ul><li><a href="#">Nuestros Patrocinios</a></li>
-											<li><a href="#">Baloncesto</a></li>
-										</ul>
-									</li>
-									<li><a href="#">Noticias</a></li>
-									<li><a href="#">Recursos Multimedia</a></li>
-									<li><a href="#">Social Media</a></li>
-									<li><a href="#">Contacto</a></li>
-								</ul>
-							</div>
-						</div>
-					</div>
+    <header>
+        <div class="fixed">
+            <div class="menu">
+                <div class="show-menu">
+                    <a class="menu_link" href="#">
+                        <p>Menú</p>
+                    </a>
+                    <div class="menuList">
+                        <ul>
+                            <li><a href="/index.html">Inicio</a></li>
+                            <li class="borderDown"><a href="#">Sobre Nosotros</a>
+                                <ul>
+                                    <li><a href="#">Corporativo</a></li>
+                                    <li><a href="Calidad.html">Calidad</a></li>
+                                    <li><a href="#">Banca Responsable</a></li>
+                                    <li><a href="#">Personas</a></li>
+                                    <li><a href="#">Innovación</a></li>
+                                </ul>
+                            </li>
+                            <li class="borderDown"><a href="#">Patrocinios</a>
+                                <ul>
+                                    <li><a href="#">Nuestros Patrocinios</a></li>
+                                    <li><a href="#">Baloncesto</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">Noticias</a></li>
+                            <li><a href="#">Recursos Multimedia</a></li>
+                            <li><a href="#">Social Media</a></li>
+                            <li><a href="#">Contacto</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="logoHeader">
+                <a href="index.html"><img src="img/header/logo_comunicacion_es.png" alt=""></a>
+            </div>
+            <div class="headerRight">
+                <div class="searchForm">
+                    <form name="search" action="" method="POST">
+                        <input class="search_input" type="text" name="" placeholder="Buscar contenidos...">
+                        <div class="submit-form-search">
+                            <a>
+									<img src="img/imgCalidad/icon_search.png" alt="">
+								</a>
+                        </div>
+                    </form>
+                </div>
 
-					<div class="logoHeader">
-						<a href="index.html"><img src="img/header/logo_comunicacion_es.png" alt=""></a>
-					</div>
+                <div class="rss">
+                    <ul class="rss_ulist">
+                        <li class="rss_li"><a href="https://www.caixabank.com/aplnr/comunicacion/buscador/servicio.noticiasRSS_es.html"><img src="img/header/icon_sub.png" alt=""></a></li>
+                        <li class="rss_li"><a href="#"><img src="img/header/icon_rss2.png" alt=""></a></li>
+                    </ul>
+                </div>
+                <div class="selectLang">
+                    <form>
+                        <select class="header_select_lang" name="languageSelector">
+								<option value="CAS" selected>CAS</option>
+								<option value="CAT">CAT</option>
+								<option value="ENG">ENG</option>
+							</select>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="banca_responsable">
+        <section class="banner_content">
+            <img src="img/imgContacto/contacto_v2.jpg" alt="">
+            <h1>Banca Socialmente Responsable</h1>
+        </section>
+        <section class="section_h2">
+            <h2 class="h2_principal">Somos un banco socialmente responsable</h2>
+            <div class="center_text margin_15">
+                <p>Nuestro modelo se basa en la búsqueda de una rentabilidad sostenible y una gestión coherente con nuestros valores corporativos: <span class="blue_text"><br> calidad, confianza y compromiso social.</span></p>
+                <div class="responsable_text">
+                    <p>Somos y queremos seguir siendo un <span class="bold_text responsable_text_span">banco de confianza </span>para nuestros clientes y la sociedad en general, manteniendo una institución ejemplar.</p>
+                    <p>Somos y queremos seguir siendo un <span class="bold_text responsable_text_span">banco con vocación social</span>, manteniendo nuestro compromiso con las personas y los territorios, contribuyendo a dar respuesta a los principales retos
+                        del entorno.</p>
+                </div>
+            </div>
+        </section>
 
-					<div class="headerRight">
-						<div class="searchForm">
-							<form name="search" action="" method="POST">
-								<input class="search_input" type="text" name="" placeholder="Buscar contenidos...">
-								<div class="submit-form-search"> 
-									<a>
-										<img src="img/imgCalidad/icon_search.png" alt="">
-									</a>
-								</div>
-							</form>
-						</div>
-						
-						<div class="rss">
-							<ul class="rss_ulist">
-								<li class="rss_li"><a href="https://www.caixabank.com/aplnr/comunicacion/buscador/servicio.noticiasRSS_es.html"><img src="img/header/icon_sub.png" alt=""></a></li>
-								<li class="rss_li"><a href="#"><img src="img/header/icon_rss2.png" alt=""></a></li>
-							</ul>	
-						</div>
-						<div class="selectLang">
-							<form>
-								<select class="header_select_lang" name="languageSelector">
-									<option value="CAS" selected>CAS</option>
-									<option value="CAT">CAT</option>
-									<option value="ENG">ENG</option>
-								</select>
-							</form>
-						</div>
-					</div>
-			</div>
-		</header>
-	<div class="banca_responsable">
-		<section class="banner_content">
-			<img src="img/imgContacto/contacto_v2.jpg" alt="">
-			<h1>Banca Socialmente Responsable</h1>
-		</section>
-		<section class="section_h2">
-			<h2 class="h2_principal">Somos un banco socialmente responsable</h2>
-			<div class="center_text margin_15">
-				<p>Nuestro modelo se basa en la búsqueda de una rentabilidad sostenible y una gestión coherente con nuestros valores corporativos: <span class="blue_text"><br> calidad, confianza y compromiso social.</span></p>
-				<div class="responsable_text">
-					<p>Somos y queremos seguir siendo un <span class="bold_text responsable_text_span">banco de confianza </span>para nuestros clientes y la sociedad en general, manteniendo una institución ejemplar.</p>
-					<p>Somos y queremos seguir siendo un <span class="bold_text responsable_text_span">banco con vocación social</span>, manteniendo nuestro compromiso con las personas y los territorios, contribuyendo a dar respuesta a los principales retos del entorno.</p>
-				</div>
-			</div>
-		</section>
+        <section class="logos_section">
+            <div class="logos">
+                <img class="logos_img" src="img/imgBanca_responsable/icon_circle_banco_cifra.png" alt="">
+                <h3 class="blue_text logos_h3">POR NUESTROS ORÍGENES</h3>
+                <p>La responsabilidad y el compromiso social están en nuestro ADN, como herederos de una institución centenaria dedicada al desarrollo socio-económico del territorio.</p>
+            </div>
+    </div>
+    <div class="logos">
+        <img class="logos_img" src="img/imgBanca_responsable/icon-circle-banco-logo.png" alt="">
 
-		<section class="logos_section">
-				<div class="logos">
-					<img class="logos_img" src="img/imgBanca_responsable/icon_circle_banco_cifra.png" alt="">
-					<h3 class="blue_text logos_h3">POR NUESTROS ORÍGENES</h3>
-					<p>La responsabilidad y el compromiso social están en nuestro ADN, como herederos de una institución centenaria dedicada al desarrollo socio-económico del territorio.</p>
-				</div>
-			</div>
-			<div class="logos">
-				<img class="logos_img" src="img/imgBanca_responsable/icon-circle-banco-logo.png" alt="">
-				
-					<h3 class="blue_text logos_h3">POR NUESTRA ACTUACIÓN RESPONSABLE</h3>
-					<p>Trabajamos para ser reconocidos como una institución ejemplar, ofreciendo un servicio excelente, con una conducta íntegra y las mejores prácticas de gobierno y gestión.</p>
-				
-			</div>
-			<div class="logos">
-				<img class="logos_img" src="img/imgBanca_responsable/icon-circle-banco-persona.png" alt="">
-				
-					<h3 class="blue_text logos_h3">POR NUESTRO COMPROMISO SOCIAL</h3>
-					<p>Somos un banco con vocación social donde priorizamos el fomento del ahorro y la previsión, la inclusión financiera y las políticas activas de ayuda a problemas sociales con un compromiso que va más allá de la actividad financiera.</p>
-			
-			</div>
-		</section>
-		<div><iframe class="video" src="https://www.youtube.com/embed/tPEZSChfXXw"></iframe></div>
-		<section>
-			<h2 class="text_h2">IMPACTO SOCIOECONÓMICO</h2>
-			<h4 class="text_center">EN CAIXABANK CUANTIFICAMOS EL IMPACTO POSITIVO DE NUESTRA ACTIVIDAD EN LOS <span class="">TERRITORIOS EN LOS QUE OPERAMOS.</span></h4>
-			<p class="text_center">Para ello, recogemos los principales indicadores relativos a la contribución al crecimiento económico, la resolución de los retos sociales más urgentes y la promoción de la sostenibilidad ambiental, conscientes de ser uno de los agentes económicos clave del país.</p>
-			<div>
-				<img src="img/imgBanca_responsable/icono-circle-impacto-map.png" alt="">
-				<p>Aportación al PIB Español (Directa e indirecta) 7.511 millones de euros (0,65% sobre el PIB)</p>
-			</div>
-			<div>
-				<img src="img/imgBanca_responsable/icono-circle-impacto-2.png" alt="">
-				<p>Trabajamos con El 48% de las empresas El 33,1% de los autónomos</p>
-			</div>
-			<div>
-				<img src="img/imgBanca_responsable/icono-circle-impacto-3.png" alt="">
-				<p>Concedemos Más del 87% de los préstamos solicitados</p>
-			</div>
-			<div>
-				<img src="img/imgBanca_responsable/icono-circle-impacto-4.png" alt="">
-				<p>Puestos de trabajo generados 36.972 empleados en el grupo 32.438 puestos de trabajo indirectos</p>
-			</div>
-			<div><p>Informe de Impacto Socioeconómico</p></div>
-		</section>
-		<section>
-			<h2 class="text_h2">Actuación responsable</h2>
-			<img src="img/imgBanca_responsable/banner_comprom1920x530.jpg" alt="">
-			<h2>Ofrecer planes de pensiones responsables nos hace diferentes</h2>
-			<h3>Inversión responsable</h3>
-			<p>CaixaBank integra en la toma de decisiones de inversión factores ambientales, sociales y de buen gobierno (ESG) para generar rendimientos sostenibles a largo plazo. Su gestora de planes de pensiones, VidaCaixa (2009) y la gestora de activos del Grupo, CaixaBank Asset Management (2016), son firmantes de los Principios de Inversión Responsable de las Naciones Unidas (UNPRI).</p>
-			<img src="img/imgBanca_responsable/selloPRIcast2.jpg" alt="">
-			<p>VidaCaixa es la única aseguradora de España con la máxima calificación en sostenibilidad. Ha conseguido A+ por su gestión de las inversiones, la nota más alta que conceden los UNPRI. Más información: www.vidacaixa.es/inversion-responsable</p>
-			<iframe width="1198" height="450" src="https://www.youtube.com/embed/ZrgHKtxQDdM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-			<caption>Caixabank, por séptimo año consecutivo, banco socialmente responsable, una de las empresas más responsables del mundo, según el Dow Jones Sustainability Index</caption>
-			<img src="img/imgBanca_responsable/caixabank_compromiso_dowjones.png" alt="">
-			<p>CaixaBank es un banco con sentido de la responsabilidad en su ADN. Tratamos de maximizar nuestra contribución al crecimiento económico, aportar valor a nuestros grupos de interés y dar respuesta a los retos sociales y ambientales más urgentes. Para ello, trabajamos con integridad para mantener una relación de confianza a largo plazo y siempre de acuerdo a nuestros valores: calidad, confianza y compromiso social.</p>
-			<div>
-				<div>
-					<img src="img/imgBanca_responsable/icono-circle-actuacion-1.png" alt="">
-					<p>Adhesión a iniciativas internacionales en responsabilidad corporativa, como el Pacto Mundial de las Naciones Unidas, los Principios para el Empoderamiento de las Mujeres de las Naciones Unidas y los Principios de Ecuador</p>
-				</div>
-				<div>
-					<img src="img/imgBanca_responsable/icono-circle-actuacion-2.png" alt="">
-					<p>11 años de la Cátedra CaixaBank de Responsabilidad Social Corporativa, en colaboración con la escuela de negocios IESE//p>
-				</div>
-				<div>
-					<img src="img/imgBanca_responsable/icono-circle-actuacion-3.png" alt="">
-					<p>Todas las personas que forman parte de CaixaBank deben basar su actuación en el Código Ético y Principios de Actuación, la Política Anticorrupción y otras normas internas de conducta</p>
-				</div>
-			</div>
-		</section>
-		<section>
-			<h2 class="text_h2">Inclusión financiera</h2>
-			<div>
-				<div></div>
-				<div></div>
-				<div></div>
-				<div></div>
-			</div>
-		</section>
-		<section>
-			<h2 class="text_h2">Acción social</h2>
-			<img src="img/imgBanca_responsable/caixabank_banner_compromiso_accionsocial.jpg" alt="">
-			<h3>CAIXABANK, COMPROMETIDO CON EL TERRITORIO</h3>
-			<p>La involucración de la red comercial de CaixaBank da soporte a la Fundación Bancaria "la Caixa" en su tarea social informando de las necesidades locales en materia social, gracias a su proximidad territorial. Mediante esta colaboración miles de entidades y asociaciones pueden acceder, cada año, a los donativos de la Fundación.</p>
-			<div>
-				<div>
-					<img src="img/imgBanca_responsable/icono-circle-accion-1.png" alt="">
-					<p>44,4 M€</p>
-					<p>Canalizados en 2017 a través de la red para proyectos locales</p>
-				</div>
-				<div>
-					<img src="img/imgBanca_responsable/icono-circle-accion-2.png" alt="">
-					<p>12.679</p>
-					<p>Actividades de ámbito social, educativo, científico y cultural</p>
-				</div>
-				<div>
-					<img src="img/imgBanca_responsable/icono-circle-actuacion-1.png" alt="">
-					<p>9.897</p>
-					<p>Entidades beneficiarias y con la participación de los empleados voluntarios de España y de la red internacional</p>
-				</div>
-			</div>
-		</section>
-		<section>
-			<h2 class="text_h2">Voluntariado</h2>
-			<img src="img/imgBanca_responsable/caixabank_banner_compromiso_voluntariado.jpg" alt="">
-			<h3>Ser como hay que ser nos hace diferentes</h3>
-			<p>CAIXABANK, COMPROMETIDO CON LA SOCIEDAD</p>
-			<p>Impulsada por CaixaBank, la Fundación Bancaria "la Caixa" y la Fundación de la Esperanza el 2005 se creó la Asociación de voluntarios de "la Caixa" con el objetivo de ayudar a fomentar la solidaridad, la cooperación, el respeto o el compromiso. Personas que consideramos necesaria la labor solidaria y la ayuda a aquellos colectivos de la sociedad que se encuentran en una situación desfavorable. Los voluntarios de "la Caixa" colaboramos por un mundo mejor.</p>
-			<div>
-				<div>
-					<img src="img/imgBanco-responsable/icono-mano-azul.png" alt="">
-					<p>Programa en el que participan empleados en activo y jubilados, familiares, amigos y otras personas con vocación solidaria:</p>
-				</div>
-				<div>
-					<img src="img/imgBanco-responsable/icono-personas-azul.png" alt="">
-					<p>CaixaBank promueve el programa de voluntariado a través de las semanas sociales:</p>
-				</div>
-				
-			</div>
-			<div>
-				<ul>
-					<li><span>Más de 10.000</span> voluntarios</li>
-					<li><span>5.500</span> empleados en activo</li>
-					<li><span>3.225</span> acciones realizadas en 2017</li>
-					<li><span>200.000</span> beneficiarios en 2017</li>
-					<li><span>1,2</span>millones de beneficiarios desde el inicio del programa</li>
-					<li><span>2 semanas sociales</span>en 2017 con más de 50 provincias y 776 municipios de España</li>
-					<li><span>6.128</span>acciones realizadas a nivellocal y 1.274 entidades sociales locales</li>
-					<li><span>22</span>actividades a nivel internacional</li>
-					<li><span>462</span>horas de voluntariado internacional</li>
-					<li><span>95%</span>de los voluntarios volvería a participar</li>
-				</ul>
+        <h3 class="blue_text logos_h3">POR NUESTRA ACTUACIÓN RESPONSABLE</h3>
+        <p>Trabajamos para ser reconocidos como una institución ejemplar, ofreciendo un servicio excelente, con una conducta íntegra y las mejores prácticas de gobierno y gestión.</p>
 
-			</div>
-		</section>
-		<section>
-			<h2 class="text_h2">#Servoluntariosuma</h2>
-			<iframe width="1194" height="396" src="https://www.youtube.com/embed/CZZ-7Zn_ZG4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-		</section>
-		<section>
-			<h2 class="text_h2">Medio Ambiente</h2>
-			<img src="img/imgBanca_responsable/caixabank_banner_compromiso_medioambiente.jpg" alt="">
-			<h3>Cuidar de lo que hay que cuidar nos hace diferentes</h3>
-			<p>CAIXABANK, COMPROMETIDO CON EL MEDIO AMBIENTE</p>
-			<p>En CaixaBank extendemos nuestro compromiso con las personas a la protección del entorno. Para ello, trabajamos para minimizar nuestro impacto ambiental y financiamos proyectos que contribuyen a hacer de nuestro planeta un lugar más sostenible. Participamos en las principales estrategias nacionales e internacionales de financiación responsable, como los Principios de Ecuador y los Principios para la inversión Responsable de las Naciones Unidas.
-			</p>
-			<h4>Cambio climático</h4>
-			<p>El apoyo y el impulso a las iniciativas dirigidas a prevenir, mitigar, adaptarse y responder al cambio climático es uno de los puntos estratégicos de la política ambiental y energética de CaixaBank.
-			</p>
-			<div>
-				<div>
-					<h3>Plan carbon neutral</h3>
-					<img src="img/imgBanca_responsable/Carbon-neutral-icono.png" alt="">
-					<p>CaixaBank realiza anualmente un inventario de las emisiones de gases de efecto invernadero (GEI) generadas como consecuencia de su actividad para calcular la huella de carbono y establecer acciones dirigidas a reducirla progresivamente.
+    </div>
+    <div class="logos">
+        <img class="logos_img" src="img/imgBanca_responsable/icon-circle-banco-persona.png" alt="">
 
-					El objetivo 2018 es ser una entidad Carbon Neutral compensando la totalidad de las emisiones calculadas correspondientes a la red de oficinas y los servicios centrales de CaixaBank.</p>
-					<ul>
-						<li>Formamos parte de la CDP Climate A List, que selecciona solo a las empresas que destacan por su estrategia para reducir emisiones de CO2 y mitigar riesgos del cambio climático. Somos la única entidad financiera española incluida en la lista por cuarto año consecutivo.</li>
-						<li>929 millones de euros financiando proyectos en energias renovables en 2017</li>
-						<li>99% de la energía que consumimos es de origen renovable.</li>
-					</ul>
-				</div>
-				<div>
-					<h3>Gestión ambiental</h3>
-					<img src="img/imgBanca_responsable/Gestion-ambiental-icono.png" alt="">
-					<p>En una sociedad cada vez más sensibilizada en cuanto a la necesidad de proteger el entorno en el que vivimos y desarrollamos nuestras actividades, y como parte de nuestra política de mejora continua, CaixaBank ha concretado sus acciones de respeto y protección del medioambiente en la implantación de un sistema de gestión ambiental y energética según el reglamento europeo EMAS 1221/2009 y las normas ISO 14001 e ISO 50001.</p>
-					<p>Declaración ambiental</p>
-				</div>
-			</div>
-		</section>
-		<section>
-			<h2 class="text_h2">Diversidad</h2>
-			<img src="img/imgBanca_responsable/caixabank_banner_compromiso_diversidad.jpg" alt="">
-			<h3>Fomentar la diversidad nos hace diferentes</h3>
-			<p>CAIXABANK, LA CULTURA ORGANIZATIVA INTEGRA LA IGUALDAD DE TRATO Y OPORTUNIDADES</p>
-			<p>Apostamos por un empleo de calidad y el fomento de la diversidad, tanto de género como funcional y generacional; es una de nuestras prioridades.</p>
-			<div>
-				<div>
-					<img src="img/imgBanca_responsable/diversidad-1.png" alt="">
-					<p>Las mujeres representan un 54% de la plantilla de CiaxaBank y un 61% de las promociones internas han sido de mujeres en 2017.</p>
-				</div>
-				<div>
-					<img src="img/imgBanca_responsable/diversidad-2.png" alt="">
-					<p>De los puestos directivos los ocupan mujeres y sus porcentaje en el Consejo se sitúa por encima de la media del IBEX35.</p>
-				</div>
-				<div>
-					<img src="img/imgBanca_responsable/diversidad-3.png" alt="">
-					<p>Desde 2011, tenemos un Plan de Igualdad</p>
-				</div>
-				<p>Hemos adoptado numerosos compromisos públicos en materia de igualdad, como los Principios para el Empoderamiento de las Mujeres de las Naciones Unidas</p>
-			</div>
-		</section>
-		<section>
-			<h2 class="text_h2">Iniciativas y alianzas</h2>
-			<div></div>
-		</section>
+        <h3 class="blue_text logos_h3">POR NUESTRO COMPROMISO SOCIAL</h3>
+        <p>Somos un banco con vocación social donde priorizamos el fomento del ahorro y la previsión, la inclusión financiera y las políticas activas de ayuda a problemas sociales con un compromiso que va más allá de la actividad financiera.</p>
+
+    </div>
+    </section>
+    <iframe class="video" src="https://www.youtube.com/embed/tPEZSChfXXw"></iframe>
+    <section class="socioeconomico">
+        <h2 class="text_h2">IMPACTO SOCIOECONÓMICO</h2>
+        <h4 class="text_center socioeconomico_h4">EN CAIXABANK CUANTIFICAMOS EL IMPACTO POSITIVO DE NUESTRA ACTIVIDAD EN LOS <span class="blue_text">TERRITORIOS EN LOS QUE OPERAMOS.</span></h4>
+        <p class="socioeconomico_p">Para ello, recogemos los principales indicadores relativos a la contribución al crecimiento económico, la resolución de los retos sociales más urgentes y la promoción de la sostenibilidad ambiental, conscientes de ser uno de los agentes económicos
+            clave del país.</p>
+        <div class="logos_section_4">
+            <div class="logos_4">
+                <img class="logos_img" src="img/imgBanca_responsable/icono-circle-impacto-map.png" alt="">
+                <p>Aportación al PIB Español (Directa e indirecta) <br><span class="blue_text bold_text"> 7.511 millones de euros (0,65% sobre el PIB)</span></p>
+            </div>
+            <div class="logos_4">
+                <img class="logos_img" src="img/imgBanca_responsable/icono-circle-impacto-2.png" alt="">
+                <p>Trabajamos con <br><span class="blue_text bold_text">El 48% de las empresas El 33,1% de los autónomos</span></p>
+            </div>
+            <div class="logos_4">
+                <img class="logos_img" src="img/imgBanca_responsable/icono-circle-impacto-3.png" alt="">
+                <p>Concedemos <br><span class="blue_text bold_text">Más del 87% de los préstamos solicitados</span></p>
+            </div>
+            <div class="logos_4">
+                <img class="logos_img" src="img/imgBanca_responsable/icono-circle-impacto-4.png" alt="">
+                <p>Puestos de trabajo generados <br><span class="blue_text bold_text">36.972 empleados en el grupo 32.438 puestos de trabajo indirectos</span></p>
+            </div>
+        </div>
+        <div class="btn_content"><button class="btn_blue" type=""><a class="btn_blue_link" href="https://multimedia.caixabank.es/lacaixa/ondemand/criteria/impactosocioeconomico2017/es.html">Informe de Impacto Socioeconómico</a></button></div>
+    </section>
+    <section>
+        <h2 class="text_h2">Actuación responsable</h2>
+        <img src="img/imgBanca_responsable/banner_comprom1920x530.jpg" alt="">
+        <h2>Ofrecer planes de pensiones responsables nos hace diferentes</h2>
+        <h3>Inversión responsable</h3>
+        <p>CaixaBank integra en la toma de decisiones de inversión factores ambientales, sociales y de buen gobierno (ESG) para generar rendimientos sostenibles a largo plazo. Su gestora de planes de pensiones, VidaCaixa (2009) y la gestora de activos del
+            Grupo, CaixaBank Asset Management (2016), son firmantes de los Principios de Inversión Responsable de las Naciones Unidas (UNPRI).</p>
+        <img src="img/imgBanca_responsable/selloPRIcast2.jpg" alt="">
+        <p>VidaCaixa es la única aseguradora de España con la máxima calificación en sostenibilidad. Ha conseguido A+ por su gestión de las inversiones, la nota más alta que conceden los UNPRI. Más información: www.vidacaixa.es/inversion-responsable</p>
+        <iframe width="1198" height="450" src="https://www.youtube.com/embed/ZrgHKtxQDdM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <caption>Caixabank, por séptimo año consecutivo, banco socialmente responsable, una de las empresas más responsables del mundo, según el Dow Jones Sustainability Index</caption>
+        <img src="img/imgBanca_responsable/caixabank_compromiso_dowjones.png" alt="">
+        <p>CaixaBank es un banco con sentido de la responsabilidad en su ADN. Tratamos de maximizar nuestra contribución al crecimiento económico, aportar valor a nuestros grupos de interés y dar respuesta a los retos sociales y ambientales más urgentes.
+            Para ello, trabajamos con integridad para mantener una relación de confianza a largo plazo y siempre de acuerdo a nuestros valores: calidad, confianza y compromiso social.</p>
+        <div>
+            <div>
+                <img src="img/imgBanca_responsable/icono-circle-actuacion-1.png" alt="">
+                <p>Adhesión a iniciativas internacionales en responsabilidad corporativa, como el Pacto Mundial de las Naciones Unidas, los Principios para el Empoderamiento de las Mujeres de las Naciones Unidas y los Principios de Ecuador</p>
+            </div>
+            <div>
+                <img src="img/imgBanca_responsable/icono-circle-actuacion-2.png" alt="">
+                <p>11 años de la Cátedra CaixaBank de Responsabilidad Social Corporativa, en colaboración con la escuela de negocios IESE//p>
+            </div>
+            <div>
+                <img src="img/imgBanca_responsable/icono-circle-actuacion-3.png" alt="">
+                <p>Todas las personas que forman parte de CaixaBank deben basar su actuación en el Código Ético y Principios de Actuación, la Política Anticorrupción y otras normas internas de conducta</p>
+            </div>
+        </div>
+    </section>
+    <section>
+        <h2 class="text_h2">Inclusión financiera</h2>
+        <div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </section>
+    <section>
+        <h2 class="text_h2">Acción social</h2>
+        <img src="img/imgBanca_responsable/caixabank_banner_compromiso_accionsocial.jpg" alt="">
+        <h3>CAIXABANK, COMPROMETIDO CON EL TERRITORIO</h3>
+        <p>La involucración de la red comercial de CaixaBank da soporte a la Fundación Bancaria "la Caixa" en su tarea social informando de las necesidades locales en materia social, gracias a su proximidad territorial. Mediante esta colaboración miles de
+            entidades y asociaciones pueden acceder, cada año, a los donativos de la Fundación.</p>
+        <div>
+            <div>
+                <img src="img/imgBanca_responsable/icono-circle-accion-1.png" alt="">
+                <p>44,4 M€</p>
+                <p>Canalizados en 2017 a través de la red para proyectos locales</p>
+            </div>
+            <div>
+                <img src="img/imgBanca_responsable/icono-circle-accion-2.png" alt="">
+                <p>12.679</p>
+                <p>Actividades de ámbito social, educativo, científico y cultural</p>
+            </div>
+            <div>
+                <img src="img/imgBanca_responsable/icono-circle-actuacion-1.png" alt="">
+                <p>9.897</p>
+                <p>Entidades beneficiarias y con la participación de los empleados voluntarios de España y de la red internacional</p>
+            </div>
+        </div>
+    </section>
+    <section>
+        <h2 class="text_h2">Voluntariado</h2>
+        <img src="img/imgBanca_responsable/caixabank_banner_compromiso_voluntariado.jpg" alt="">
+        <h3>Ser como hay que ser nos hace diferentes</h3>
+        <p>CAIXABANK, COMPROMETIDO CON LA SOCIEDAD</p>
+        <p>Impulsada por CaixaBank, la Fundación Bancaria "la Caixa" y la Fundación de la Esperanza el 2005 se creó la Asociación de voluntarios de "la Caixa" con el objetivo de ayudar a fomentar la solidaridad, la cooperación, el respeto o el compromiso.
+            Personas que consideramos necesaria la labor solidaria y la ayuda a aquellos colectivos de la sociedad que se encuentran en una situación desfavorable. Los voluntarios de "la Caixa" colaboramos por un mundo mejor.</p>
+        <div>
+            <div>
+                <img src="img/imgBanco-responsable/icono-mano-azul.png" alt="">
+                <p>Programa en el que participan empleados en activo y jubilados, familiares, amigos y otras personas con vocación solidaria:</p>
+            </div>
+            <div>
+                <img src="img/imgBanco-responsable/icono-personas-azul.png" alt="">
+                <p>CaixaBank promueve el programa de voluntariado a través de las semanas sociales:</p>
+            </div>
+
+        </div>
+        <div>
+            <ul>
+                <li><span>Más de 10.000</span> voluntarios</li>
+                <li><span>5.500</span> empleados en activo</li>
+                <li><span>3.225</span> acciones realizadas en 2017</li>
+                <li><span>200.000</span> beneficiarios en 2017</li>
+                <li><span>1,2</span>millones de beneficiarios desde el inicio del programa</li>
+                <li><span>2 semanas sociales</span>en 2017 con más de 50 provincias y 776 municipios de España</li>
+                <li><span>6.128</span>acciones realizadas a nivellocal y 1.274 entidades sociales locales</li>
+                <li><span>22</span>actividades a nivel internacional</li>
+                <li><span>462</span>horas de voluntariado internacional</li>
+                <li><span>95%</span>de los voluntarios volvería a participar</li>
+            </ul>
+
+        </div>
+    </section>
+    <section>
+        <h2 class="text_h2">#Servoluntariosuma</h2>
+        <iframe width="1194" height="396" src="https://www.youtube.com/embed/CZZ-7Zn_ZG4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </section>
+    <section>
+        <h2 class="text_h2">Medio Ambiente</h2>
+        <img src="img/imgBanca_responsable/caixabank_banner_compromiso_medioambiente.jpg" alt="">
+        <h3>Cuidar de lo que hay que cuidar nos hace diferentes</h3>
+        <p>CAIXABANK, COMPROMETIDO CON EL MEDIO AMBIENTE</p>
+        <p>En CaixaBank extendemos nuestro compromiso con las personas a la protección del entorno. Para ello, trabajamos para minimizar nuestro impacto ambiental y financiamos proyectos que contribuyen a hacer de nuestro planeta un lugar más sostenible.
+            Participamos en las principales estrategias nacionales e internacionales de financiación responsable, como los Principios de Ecuador y los Principios para la inversión Responsable de las Naciones Unidas.
+        </p>
+        <h4>Cambio climático</h4>
+        <p>El apoyo y el impulso a las iniciativas dirigidas a prevenir, mitigar, adaptarse y responder al cambio climático es uno de los puntos estratégicos de la política ambiental y energética de CaixaBank.
+        </p>
+        <div>
+            <div>
+                <h3>Plan carbon neutral</h3>
+                <img src="img/imgBanca_responsable/Carbon-neutral-icono.png" alt="">
+                <p>CaixaBank realiza anualmente un inventario de las emisiones de gases de efecto invernadero (GEI) generadas como consecuencia de su actividad para calcular la huella de carbono y establecer acciones dirigidas a reducirla progresivamente.
+                    El objetivo 2018 es ser una entidad Carbon Neutral compensando la totalidad de las emisiones calculadas correspondientes a la red de oficinas y los servicios centrales de CaixaBank.</p>
+                <ul>
+                    <li>Formamos parte de la CDP Climate A List, que selecciona solo a las empresas que destacan por su estrategia para reducir emisiones de CO2 y mitigar riesgos del cambio climático. Somos la única entidad financiera española incluida en
+                        la lista por cuarto año consecutivo.</li>
+                    <li>929 millones de euros financiando proyectos en energias renovables en 2017</li>
+                    <li>99% de la energía que consumimos es de origen renovable.</li>
+                </ul>
+            </div>
+            <div>
+                <h3>Gestión ambiental</h3>
+                <img src="img/imgBanca_responsable/Gestion-ambiental-icono.png" alt="">
+                <p>En una sociedad cada vez más sensibilizada en cuanto a la necesidad de proteger el entorno en el que vivimos y desarrollamos nuestras actividades, y como parte de nuestra política de mejora continua, CaixaBank ha concretado sus acciones
+                    de respeto y protección del medioambiente en la implantación de un sistema de gestión ambiental y energética según el reglamento europeo EMAS 1221/2009 y las normas ISO 14001 e ISO 50001.</p>
+                <p>Declaración ambiental</p>
+            </div>
+        </div>
+    </section>
+    <section>
+        <h2 class="text_h2">Diversidad</h2>
+        <img src="img/imgBanca_responsable/caixabank_banner_compromiso_diversidad.jpg" alt="">
+        <h3>Fomentar la diversidad nos hace diferentes</h3>
+        <p>CAIXABANK, LA CULTURA ORGANIZATIVA INTEGRA LA IGUALDAD DE TRATO Y OPORTUNIDADES</p>
+        <p>Apostamos por un empleo de calidad y el fomento de la diversidad, tanto de género como funcional y generacional; es una de nuestras prioridades.</p>
+        <div>
+            <div>
+                <img src="img/imgBanca_responsable/diversidad-1.png" alt="">
+                <p>Las mujeres representan un 54% de la plantilla de CiaxaBank y un 61% de las promociones internas han sido de mujeres en 2017.</p>
+            </div>
+            <div>
+                <img src="img/imgBanca_responsable/diversidad-2.png" alt="">
+                <p>De los puestos directivos los ocupan mujeres y sus porcentaje en el Consejo se sitúa por encima de la media del IBEX35.</p>
+            </div>
+            <div>
+                <img src="img/imgBanca_responsable/diversidad-3.png" alt="">
+                <p>Desde 2011, tenemos un Plan de Igualdad</p>
+            </div>
+            <p>Hemos adoptado numerosos compromisos públicos en materia de igualdad, como los Principios para el Empoderamiento de las Mujeres de las Naciones Unidas</p>
+        </div>
+    </section>
+    <section>
+        <h2 class="text_h2">Iniciativas y alianzas</h2>
+        <div></div>
+    </section>
 
 
-	</div>	
-	
-	<footer>
-			<div class="footerUp">
-				<div class="contenedor-footerUp">
-					<div class="footer-left">
-						<h2>Textos Legales</h2>
-						<ul>
-							<li><a href="#">CaixaBank, S.A. 2016</a></li>
-							<li><a href="#">Informació legal sobre CaixaBank, SA</a></li>
-							<li><a href="#">Aviso legal</a></li>
-							<li><a href="#">Política de cookies</a></li>
-							<li><a href="#">Privacidad y tratamiento de datos personales</a></li>	
-						</ul>			
-					</div>
-					
-					<div class="footer-center">
-						<h2>Webs destacadas</h2>
-						<ul>
-							<li><a href="#">CaixaBank Corporativo</a></li>
-							<li><a href="#">CaixaBank Comercial</a></li>
-							<li><a href="#">CaixaBank Research</a></li>
-							<li><a href="#">VidaCaixa</a></li>
-							<li><a href="#">MicroBank</a></li>
-							<li><a href="#">CriteriaCaixa</a></li>
-							<li><a href="#">Fundación Bancaria "la Caixa"</a></li>
-						</ul>
-					</div>
-					
-					<div class="footer-right">
-						<h2>Salas de prensa</h2>
-						<ul>
-							<li><a href="#">CriteriaCaixa</a></li>
-							<li><a href="#">Obra social</a></li>
-							<li><a href="#">VidaCaixa</a></li>
-						</ul>
-					</div>
-				</div>
-			</div>
+    </div>
 
-			<div class="footerDown">
-				<div class="contenedor-footerDown">
-					<div class="footerImg">
-						<a href="https://www.caixabank.com/comunicacion/index_es.html"><img src="img/logo_footer.png" alt=""></a>
-						<div class="footerText">
-							<ul>
-								<li><a href="#">Mapa del Sitio </a></li>
-								<li><a href="#">Contacto</a></li>
-							</ul>
-						</div>
-					</div>
-					<div class="redes">
-						<ul>
-							<li><a href="#"><img src="img/footer/icon_blog.png" alt=""></a></li>
-							<li><a href="#"><img src="img/footer/icon_twitter.png" alt=""></a></li>
-							<li><a href="#"><img src="img/footer/icon_facebook.png" alt=""></a></li>
-							<li><a href="#"><img src="img/footer/icon_youtube.png" alt=""></a></li>
-							<li><a href="#"><img src="img/footer/icon_linkedin.png" alt=""></a></li>
-							<li><a href="#"><img src="img/footer/icon_google.png" alt=""></a></li>
-							<li><a href="#"><img src="img/footer/icon_pint.png" alt=""></a></li>
-							<li><a href="#"><img src="img/footer/icon_rss.png" alt=""></a></li>
-						</ul>
-					</div>
-				</div>	
-			</div>
-		</footer>
-	</body>
+    <footer>
+        <div class="footerUp">
+            <div class="contenedor-footerUp">
+                <div class="footer-left">
+                    <h2>Textos Legales</h2>
+                    <ul>
+                        <li><a href="#">CaixaBank, S.A. 2016</a></li>
+                        <li><a href="#">Informació legal sobre CaixaBank, SA</a></li>
+                        <li><a href="#">Aviso legal</a></li>
+                        <li><a href="#">Política de cookies</a></li>
+                        <li><a href="#">Privacidad y tratamiento de datos personales</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-center">
+                    <h2>Webs destacadas</h2>
+                    <ul>
+                        <li><a href="#">CaixaBank Corporativo</a></li>
+                        <li><a href="#">CaixaBank Comercial</a></li>
+                        <li><a href="#">CaixaBank Research</a></li>
+                        <li><a href="#">VidaCaixa</a></li>
+                        <li><a href="#">MicroBank</a></li>
+                        <li><a href="#">CriteriaCaixa</a></li>
+                        <li><a href="#">Fundación Bancaria "la Caixa"</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-right">
+                    <h2>Salas de prensa</h2>
+                    <ul>
+                        <li><a href="#">CriteriaCaixa</a></li>
+                        <li><a href="#">Obra social</a></li>
+                        <li><a href="#">VidaCaixa</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="footerDown">
+            <div class="contenedor-footerDown">
+                <div class="footerImg">
+                    <a href="https://www.caixabank.com/comunicacion/index_es.html"><img src="img/logo_footer.png" alt=""></a>
+                    <div class="footerText">
+                        <ul>
+                            <li><a href="#">Mapa del Sitio </a></li>
+                            <li><a href="#">Contacto</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="redes">
+                    <ul>
+                        <li><a href="#"><img src="img/footer/icon_blog.png" alt=""></a></li>
+                        <li><a href="#"><img src="img/footer/icon_twitter.png" alt=""></a></li>
+                        <li><a href="#"><img src="img/footer/icon_facebook.png" alt=""></a></li>
+                        <li><a href="#"><img src="img/footer/icon_youtube.png" alt=""></a></li>
+                        <li><a href="#"><img src="img/footer/icon_linkedin.png" alt=""></a></li>
+                        <li><a href="#"><img src="img/footer/icon_google.png" alt=""></a></li>
+                        <li><a href="#"><img src="img/footer/icon_pint.png" alt=""></a></li>
+                        <li><a href="#"><img src="img/footer/icon_rss.png" alt=""></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
 </html>
