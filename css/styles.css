@@ -250,12 +250,12 @@ header {
 	margin:  25px 10%;
 }
 
-.section_h2 {
+.section_title {
 	margin-top:  105px;
 	margin-bottom:  30px;
 }
 
-.h2_principal {
+.title_principal {
 	color:  #0097d4;
 	font-size:  2.5em;
 	text-align:  center;
@@ -271,12 +271,12 @@ header {
 	margin:  20px 10% 25px;
 }
 
-.main_figures_img {
+.three_logos {
 	margin: 0 auto 15px;
 	width: 100%;
 }
 
-.main_figures_img1, .main_figures_img2, .main_figures_img3{
+.three_logos_1, .three_logos_2, .three_logos_3{
 	margin:  15px auto;
 	display:  inline-block;
 	width:  33%;
@@ -287,7 +287,7 @@ header {
 	background-color: #f7f7f7;
 }
 
-.main_figures_text {
+.logo_text {
 	margin:  15px auto;
 	color: #0097d4;
 	font-size: 1.5em;
@@ -296,7 +296,7 @@ header {
 	width:  60%;
 }
 
-.main_figures_span {
+.logo_span {
 	color: #f56e6e ;
 	font-size:  2em;
 	font-style: italic;
@@ -324,7 +324,7 @@ header {
 	margin:  50px auto;
 }
 
-.banca_personalizada_content, .calidad_attcliente_content {
+.banca_personalizada_content, .calidad_attcliente {
 	background-color: #F4F0F4;
 	padding:  55px 5% 0;
 }
@@ -335,11 +335,11 @@ header {
 	padding:  5px 80px;
 }
 
-.imgYtext_banca_proxima {
+.banca_proxima {
 	background-color: #F4F0F4;
 	height:  700px;
 }
-.img_banca_proxima {
+.banca_proxima_img {
 	padding-top:  70px;
 	padding-left: 10%;
 	width:  70%;
@@ -347,7 +347,7 @@ header {
 	float:  left;
 }
 
-.text_banca_proxima {
+.banca_proxima_text {
 	padding-top:  70px;
 	width:  25%;
 	display:  inline-block;
@@ -435,7 +435,7 @@ header {
 	padding-top:  1.5em;
 }
 
-.attcliente_li {
+.attcliente_list li {
 	padding-top:  1.5em;
 	font-weight: 600;
 }
@@ -1055,7 +1055,7 @@ footer {
 	font-weight:  600;
 }
 
-.actresp_title2 {
+.act_resp_title2 {
 	text-transform: uppercase;
 	font-size: 1em;
 	margin-bottom: 30px;
@@ -1063,6 +1063,27 @@ footer {
 
 .text_margin {
 	margin:  25px 5%;
+}
+
+.img_text_content {
+	position:  relative;
+}
+
+.act_resp_title {
+	position:  absolute;
+	font-size:  2.5em;
+	font-weight: bold;
+	background-color:  #000;
+	color:  yellow;
+	text-transform: uppercase;
+	top:  50px;
+	left:  80px;
+	z-index:  10;
+}
+
+.act_resp_img {
+	height: 350px;
+	width:  100%;
 }
 
 .sello_content {
