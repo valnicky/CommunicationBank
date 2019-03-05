@@ -219,14 +219,9 @@ header {
     padding: 9px 5%;
     z-index: 1000;
 }
-
-
 /**fin header**/
 
-
-
 /*patrocinios*/
-
 .logos {
 	width:  30%;
 	display:  inline-block;
@@ -338,7 +333,6 @@ header {
 	text-align: center;
 	margin:  5px;
 	padding:  5px 80px;
-	font-weight: 600;
 }
 
 .imgYtext_banca_proxima {
@@ -957,11 +951,14 @@ footer {
 	padding-left: 5rem;
 }
 
-
-.paralympics_video {
-	width:  100%;
+.video_content {
 	clear:  both;
-	height:  400px;
+	
+}
+
+.video {
+	width:  100%;
+	height:  350px;
 }
 
 .blue_text {
@@ -1026,9 +1023,8 @@ footer {
 
 .logos_section_4 {
 	width:  90%;
-	margin:  30px 5%;
+	margin:  40px 5%;
 }
-
 
 .logos_4 {
 	width:  24%;
@@ -1038,6 +1034,8 @@ footer {
 	float:  left;
 	text-align: center;
 	font-size:  1.3em;
+	color:  #ccc;
+	font-weight:  800;
 }
 
 .btn_content {
@@ -1057,6 +1055,83 @@ footer {
 	font-weight:  600;
 }
 
+.actresp_title2 {
+	text-transform: uppercase;
+	font-size: 1em;
+	margin-bottom: 30px;
+}
+
+.text_margin {
+	margin:  25px 5%;
+}
+
+.sello_content {
+	width:  60%;
+	margin:  20px 20%;
+	margin-bottom:  30px;
+}
+
+.sello_img, .sello_text {
+	float:  left;
+	display:  inline-block;
+}
+
+.sello_img {
+	width:  30%;
+}
+
+.sello_text {
+	width:  70%;
+}
+
+.actResp_img {
+	margin:  10px 30%;
+}
+
+.actResp {
+	width:  90%;
+	text-align: center;
+	margin:  10px 5%;
+}
+
+.incl_financ {
+	clear:  both;
+}
+
+.actSocial_title {
+	font-size:  1em;
+}
+
+.actSocial_text {
+	width:  75%;
+	margin:  20px 15%;
+	text-align: center;
+}
+
+.cambioClimat {
+	width:  70%;
+	margin:  10px 10%;
+}
+
+.cambioClimat_div {
+	text-align: left;
+	width:  45%;
+	margin-left:  45px;
+	display:  inline-block;
+	float:  left;
+}
+
+.cambioClimat_div h3  {
+	text-align: center;
+}
+
+.cambioClimat_div img {
+	margin:  5px auto;
+}
+
+.diversidad {
+	clear:  both;
+}
 /*FIN banca responsable*/
 
 /*Media queries*/
