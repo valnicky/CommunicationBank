@@ -242,6 +242,38 @@ header {
 	height:  100%;
 }
 
+.slider_title {
+	text-transform: uppercase;
+	font-size: 1em;
+}
+
+.text_slider {
+    width: 45%;
+    display: inline-block;
+    margin-left: 52px;
+    text-align: center;
+}
+
+img.slider_img {
+    width: 45%;
+}
+
+.baloncesto_slider {
+	margin: 25px 15%;
+}
+
+.slider_list li {
+    display: inline-block;
+    padding: 15px 66px;
+    border-left: 1px dotted #0097d4;
+    text-transform: uppercase;
+}
+
+.slider_list {
+	color:  #0097d4;
+	margin: 5px 7%;
+}
+
 /*calidad*/
 
 .calidad_p {
@@ -252,7 +284,7 @@ header {
 
 .section_title {
 	margin-top:  105px;
-	margin-bottom:  30px;
+	margin-bottom:  50px;
 }
 
 .title_principal {
@@ -1152,6 +1184,11 @@ footer {
 
 .diversidad {
 	clear:  both;
+}
+
+.color_subtitulo {
+	color:  #fff;
+	background-color: cadetblue;
 }
 /*FIN banca responsable*/
 
