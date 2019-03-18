@@ -267,6 +267,7 @@ img.slider_img {
     padding: 15px 66px;
     border-left: 1px dotted #0097d4;
     text-transform: uppercase;
+    font-size: 0.9em;
 }
 
 .slider_list {
@@ -379,6 +380,10 @@ img.slider_img {
 	float:  left;
 }
 
+.banca_proxima_img img {
+	max-width:  700px;
+}
+
 .banca_proxima_text {
 	padding-top:  70px;
 	width:  25%;
@@ -393,7 +398,6 @@ img.slider_img {
 	font-size:  1.4em;
 	font-style: italic;
 	font-weight: 700;
-	margin-right: 10px ;
 	text-align: left;
 	padding:  15px;
 }
@@ -412,7 +416,7 @@ img.slider_img {
 }
 
 .text_second {
-    width: 253px;
+    width: 179px;
     height: 66px;
     display: inline-block;
     padding-top: 11px;
@@ -480,6 +484,21 @@ img.slider_img {
 .link {
 	color: #000;
 	text-decoration: underline;
+}
+
+.last_news_container {
+	margin: 25px 10%;
+}
+
+.noticia {
+	width:  43%;
+	display:  inline-block;
+	margin: 15px 25px;
+}
+
+.noticia img {
+	width:  100%;
+	
 }
 /*fin calidad*/
 
@@ -954,10 +973,11 @@ footer {
 
 .inconform_content {
 	padding:  80px 0 200px 10%;
-	margin: 10px 0 40px;
+	margin: 25px 0 60px;
 }
 
 .compromet_content {
+	margin-top:  21px;
 	padding:  5px 0 50px 10%;
 	}
 
@@ -1209,4 +1229,38 @@ footer {
 	.right_part, .left_part{
 		margin:  10px auto;
 	}
+}
+
+@media screen and (max-width: 1200px) {
+	.banca_proxima_img {
+		padding-left:  0;
+	}
+	.calidad_2images .calidad_first_image, .calidad_second_image {
+		width:  100%;
+		display:  block;
+	}
+
+}
+
+@media screen and (max-width: 995px) {
+	.banca_proxima_img img {
+		max-width: 600px;
+	}
+
+	.three_logos_1, .three_logos_2, .three_logos_3 {
+    	display: block;
+    	width:  100%;
+    	margin:  0 auto;
+    }
+
+    .logo_text {
+    	width:  30%;
+    }
+
+    .noticia {
+    	width:  43%;
+    	margin:  15px 10px;
+    }
+
+    
 }
