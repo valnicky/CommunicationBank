@@ -1,4 +1,32 @@
- body{
+html,
+body,
+p,
+div,
+h1,
+h2,
+h3,
+h4,
+a,
+img,
+ul,
+li,
+ol,
+span,
+header,
+nav,
+footer,
+section,
+article,
+object,
+video {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    outline: 0;
+    border: none;
+}
+
+body, body{
 	font-family: Arial, sans-serif;
 	font-size:  14px;
 	width:  100%;
@@ -27,9 +55,9 @@ header {
 /*MENU*/
 .menu {
 	float:  left;
-	margin-left: 60px;
+	margin-left: 7%;
 	color:  #0097d5;
-	width: 30%;
+	width: 20%;
 	height:  30px;
 	display:  inline-block;
 }
@@ -117,7 +145,7 @@ header {
 
 /*logoHeader*/
 .logoHeader {
-	width:  30%;
+	width:  18%;
 	display:  inline-block;
 	float:  left;
 }
@@ -152,7 +180,7 @@ header {
 
 /*header right*/
 .headerRight {
-	width:  30%;
+	width:  35%;
 	float:  left;
 	text-align:  right;
 	height:  30px;
@@ -182,7 +210,7 @@ header {
 	list-style: none;
 }
 
-.rss_ulist:after{
+.rss_ulist::after{
 	content:  "";
 	background-color: grey;
 	width:  3px;
@@ -191,7 +219,7 @@ header {
 	left:  0;
 }
 
-.rss:after{
+.rss::after{
 	content:  "";
 	background-color: grey;
 	width:  3px;
@@ -283,6 +311,10 @@ img.slider_img {
 	margin:  25px 10%;
 }
 
+.calidad_img {
+	padding-left:  60px;
+}
+
 .section_title {
 	margin-top:  105px;
 	margin-bottom:  50px;
@@ -370,14 +402,12 @@ img.slider_img {
 
 .banca_proxima {
 	background-color: #F4F0F4;
-	height:  700px;
+	height:  100%;
 }
 .banca_proxima_img {
-	padding-top:  70px;
 	padding-left: 10%;
 	width:  70%;
 	display:  inline-block;
-	float:  left;
 }
 
 .banca_proxima_img img {
@@ -385,7 +415,6 @@ img.slider_img {
 }
 
 .banca_proxima_text {
-	padding-top:  70px;
 	width:  25%;
 	display:  inline-block;
 }
@@ -448,10 +477,6 @@ img.slider_img {
 
 .calidad_second_image {
 	width:  40%;
-}
-
-.calidad_img {
-	padding-left:  60px;
 }
 
 .text_center_blue {
@@ -518,16 +543,16 @@ footer {
 
 .footerUp, .footerDown {
 	display: block;
+	width:  100%;
 }
 
 .footerUp {
 	background-color: #f5f6f7;
 	height: 315px;
-	padding: 25px 10%;
 }
 
 .footerUp .contenedor-footerUp{
-	width:  100%;
+	width:  80%;
 	margin:  0 auto;
 	height:  100%;
 }
@@ -558,7 +583,7 @@ footer {
 	padding: 25px 2px;
 	display: inline-block;
 	text-align: left;
-	width:  39%;
+	width:  32%;
 	height: 250px;
 	margin-top:  15px;
 	position: relative;
@@ -593,7 +618,7 @@ footer {
 
 .footerDown {
 	width:  100%;
-	padding: 5px 10%;
+	/*padding: 5px 10%;*/
 	height:  80px;
 	margin:  0 auto;
 	background-color: #ebebeb;
@@ -601,9 +626,9 @@ footer {
 }
 
 .contenedor-footerDown {
-	width:  95%;
+	width:  1050px;
+	margin: 0 auto;
 	height:  100%;
-	margin:  0 2%;
 }
 
 .footerDown .contenedor-footerDown div{
@@ -614,6 +639,7 @@ footer {
 .footerImg {
 	width:  50%;
 	display: inline-block;
+	float: left;
 }
 
 .footerImg img, .footerImg .footerText {
@@ -651,7 +677,7 @@ footer {
 .redes {
 	display:  inline-block;
 	width: 50%;
-	float:  right;
+	float:  left;
 	text-align:  right;
 }
 
@@ -694,7 +720,10 @@ footer {
 }
 
 .middle_content {
-	margin:  10px 10%;
+	margin:  10px auto 0;
+	width: 1050px;
+    height: 100%;
+    
 }
 
 .agenda {
@@ -783,18 +812,18 @@ footer {
 }
 
 .two_images {
-	height:  200px;
+	height:  167px;
 	clear:  both;
-	margin:  10px 10%;
+	margin:  10px auto 0;
+	width: 1050px;
 }
 
 .two_images_left {
 	display:  inline-block;
-	width:  47%;
+	width:  49%;
 	float:  left;
 	position:  relative;
-	margin:  10px;
-	margin-right:  10px;
+	margin-right:  1%;
 }
 
 .two_images_left_text {
@@ -804,10 +833,9 @@ footer {
 
 .two_images_right {
 	display:  inline-block;
-	width:  47%;
+	width:  49%;
 	float:  left;
-	margin:  10px;
-	margin-left:  10px;
+	margin-left:  1%;
 }
 
 .two_images_left_title {
@@ -818,6 +846,8 @@ footer {
 
 .two_images_img {
 	width:  100%;
+	max-width:  650px;
+	min-width:  396px;
 }
 
 
@@ -829,7 +859,7 @@ footer {
 }
 
 .news_25, .news_50 {
-	margin:  5px;
+	margin:  5px 2%;
 	display:  inline-block;
 } 
 
@@ -885,15 +915,15 @@ footer {
 /*fin twitter*/
 
 .Main-container {
-	width:  90%;
-	margin:  0 5%;
+	width:  100%;
+	margin:  0 auto;
 }
 
 /*CONTACTO*/
 .contact_text {
 	text-align: center;
 	margin: 90px auto 5px;
-	width:  40%;
+	width:  100%;
 }
 
 .contact_h2 {
@@ -910,14 +940,15 @@ footer {
 }
 
 .directores {
-	width:  90%;
+	width:  77%;
 	margin:  25px auto;
-	margin:  10px 5%;
+
 }
 
 .directores .caja_directores{
 	background-color: #33adde;
-	width:  30%;
+	width:  340px;
+	min-width: 300px;
 	height:  110px;
 	color:  #fff;
 	display:  inline-block;
@@ -1214,21 +1245,14 @@ footer {
 
 /*Media queries*/
 
-@media screen and (min-width: 800px) and (max-width: 1400px) {
-	.footerUp .contenedor-footerUp {
-    	width: 90%;
-	}
-}
 
-@media screen and (max-width: 900px) {
-	.left_part, .right_part {
-		width: 100%;
-		margin:  10px auto;
-	}
+@media screen and (max-width: 1400px) {
 
-	.right_part, .left_part{
-		margin:  10px auto;
-	}
+	/*index*/
+	/*.news_index_content {
+		width: 95%;
+		margin:  0 auto;
+	}*/
 }
 
 @media screen and (max-width: 1200px) {
@@ -1240,7 +1264,36 @@ footer {
 		display:  block;
 	}
 
+	.calidad_img {
+		display:  block;
+		margin:  25px auto;
+		float: none;
+	}
+	/*index*/
+	.news_50 {
+		width:  255px;
+	}
+	/*index*/
+	.agenda{
+		width:  100%;
+		display:  block;
+	}
+	.two_images {
+		width:  800px;
+		height:  131px;
+	}
+	.middle_content {
+		width:  800px;
+	}
+
+	/*footer*/
+	.contenedor-footerUp, .contenedor-footerDown {
+		width:  800px;
+		margin:  0 auto;
+	}
+
 }
+
 
 @media screen and (max-width: 995px) {
 	.banca_proxima_img img {
@@ -1262,5 +1315,182 @@ footer {
     	margin:  15px 10px;
     }
 
-    
+	/*index*/
+	.news_50, .news_25 {
+		margin: 20px 30px;
+	}
+	
+	/*index*/
+	/*.two_images_left, .two_images_right {
+		display:  block;
+		width:  100%;
+	}
+	.news_index_content {
+		width:  100%;
+	}*/
 }
+
+
+@media screen and (max-width: 950px) {
+	.footer-left, .footer-center, .footer-right {
+		display:  block;
+		float:  none;
+		width: 100%;
+	}
+
+	.footer-left::after{
+		display: none;
+	}
+}
+
+@media screen and (max-width: 900px) {
+	.left_part, .right_part {
+		width: 100%;
+		margin:  10px auto;
+	}
+
+	.right_part, .left_part{
+		margin:  10px auto;
+	}
+	/*footer*/
+	.redes, .footerImg {
+		display: block;
+    	float: none;
+    	margin: 0 auto;
+    	width: 100%;
+    	text-align: center;
+	}
+}
+
+
+@media screen and (max-width: 830px ) {
+	.banca_proxima_text {
+		width:  95%;
+		display:  block;
+		margin:  25px auto;
+	}
+	
+	.banca_proxima_img {
+		display: block;
+   		width: 100%;
+	}
+
+	.banca_proxima_img img {
+		max-width:  990px;
+	}
+
+	.text_p {
+		text-align:  center;
+	}
+
+	/*index*/
+	.two_images_left, .two_images_right {
+		width:  523px;
+		float:  none;
+		margin:  0 auto;
+		margin-top:  15px;
+		display: block;
+	}
+
+	.two_images {
+		width:  523px;
+		height:  auto;
+	}
+
+	.agenda_text {
+		display: block;
+		float:  none;
+		margin:  0 ;
+		width:  280px;
+	}
+	.agenda_draw {
+		display:  none;
+	}
+	.agenda_txt {
+		display:  block;
+		float:  none;
+		margin:  20px 0;
+		text-align: left;
+		width:  280px;
+		height: auto;
+	}
+
+	.middle_content {
+		width:  80%;
+	}
+
+	.middle_content_agenda {
+		width:  290px;
+	}
+
+	.agenda {
+		width:  50%;
+	}
+
+	.one_right_part {
+		width:  290px;
+		float:  left;
+	}
+
+	/*footer*/
+	.footerUp {
+		height:  100%;
+	}
+
+
+}
+
+@media screen and (max-width: 750px ) {
+	/*footer*/
+	.footerUp div.footer-left, .footerUp div.footer-center, .footerUp div.footer-right {
+		width:  100%;
+		margin:  0 auto;
+		display:  block;
+		float:  none;
+	}
+
+	.footerUp .contenedor-footerUp div:last-child {
+		width:  100%;
+		margin:  0 auto;
+	}
+	.footerUp .contenedor-footerUp div::after {
+		display: none;
+	}
+	/*index*/
+	.one_right_part {
+		display:  block;
+		float:  none;
+		}
+	.agenda {
+		float: none;
+		margin: 0 auto;
+		display: block;
+	}
+	.one_right_part {
+		margin:  0 auto;
+		width:  80%;
+	}
+	.two_images {
+		width:  80%;
+		margin:  0 8%;
+	}
+	.two_images_left, .two_images_right {
+		width:  100%;
+	}
+	.middle_content {
+		width:  100%;
+	}
+	.agenda .title_h2, .one_right_part h2 {
+		text-align: center;
+	}
+}
+
+
+@media screen and (max-width: 450px ) {
+	.index_content .news_index_content div.news_50, .news_index_content  div.news_25 {
+		width:  80%;
+		display: block;
+		margin:  0 auto;
+	}
+}
+

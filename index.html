@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8"/>
+    <!--<meta name="viewport" content="width=device-width,  initial-scale=1">-->
     <title>CaixaBank Comunicación</title>
     <link rel="stylesheet" type="text/css" href="css/styles.css">
     <!--<meta http-equiv="refresh" content="5">-->
@@ -11,6 +11,8 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <!--[if lt IE 9]><script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script><![endif]-->
+    <script src="https://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"  async defer></script>
 </head>
 
 <body>
@@ -53,7 +55,7 @@
             <div class="headerRight">
                 <div class="searchForm">
                     <form name="search" action="" method="POST">
-                        <input class="search_input" type="text" name="" placeholder="Buscar contenidos...">
+                        <input class="search_input" type="text" name="search" placeholder="Buscar contenidos...">
                         <div class="submit-form-search">
                             <a>
 									<img src="img/imgCalidad/icon_search.png" alt="">
@@ -82,18 +84,21 @@
     </header>
     <div class="index_content">
 
-        <div id="myCarousel" class="carousel">
+        <div id="myCarousel" class="carousel slide">
             <!--carousel-->
             <ol class="carousel-indicators">
-                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                <li data-target="#myCarousel" data-slide-to="1"></li>
-                <li data-target="#myCarousel" data-slide-to="2"></li>
+                <li data-target="#myCarousel" data-slide-to="0" class="active"><a href="https://www.caixabank.com/comunicacion/noticia/caixabank-mejor-banco-en-espana-y-mejor-banco-en-europa-occidental-por-la-revista-global-finance_es.html?id=41586"></a></li>
+                <li data-target="#myCarousel" data-slide-to="1"><a href="https://www.caixabank.com/comunicacion/noticia/la-ruta-de-la-innovacion-de-caixabank_es.html?id=41324">La ruta de la innovación de CaixaBank</a></li>
+                <li data-target="#myCarousel" data-slide-to="2"><a href="https://www.caixabank.com/comunicacion/noticia/una-mirada-a-la-historia-de-nuestro-baloncesto_es.html?id=41455"></a></li>
                 <li data-target="#myCarousel" data-slide-to="3"></li>
             </ol>
 
             <div class="carousel-inner">
                 <div class="item active">
                     <img src="img/bannerImg/bannerHomeB2.jpg" alt="">
+                    <div class="carousel-caption">
+                        <h3></h3>
+                    </div>
                 </div>
                 <div class="item">
                     <img src="img/bannerImg/bannerInnov1.jpg" alt="">
@@ -171,7 +176,7 @@
                         <h3 class="twitter_title">@CABK_research</h3>
                         <p>
                             🔔#PulsoEconómico 🌏#Mundo - 🇯🇵Japón retorna a tasas de avance positivas en el 4T 2018 y cierra el año con un crecimi… https://t.co/9oOlEVCJad
-                            <a href="https://twitter.com/i/web/status/1097507026928914433" target="_new" class="link-twitter" tabindex="0">Accede</a>
+                            <a href="https://twitter.com/i/web/status/1097507026928914433" target="twe" class="link-twitter" tabindex="0">Accede</a>
                         </p>
                     </li>
                     <li class="twitter_list_item">
@@ -180,7 +185,7 @@
                         <p>
                             RT @caixabank: ‘Escuchar Hablar Hacer’ aspira a construir un relato transversal y perdurable en el tiempo, alineado con las prioridades def…
                         </p>
-                        <a href="https://twitter.com/i/web/status/1097778596280709120" target="_new" class="link-twitter" tabindex="0">Accede</a>
+                        <a href="https://twitter.com/i/web/status/1097778596280709120" target="twi" class="link-twitter" tabindex="0">Accede</a>
                     </li>
                     <li></li>
                     <li></li>
@@ -226,12 +231,11 @@
                 <!--puede ser un video/imagen-->
             </section>
         </div>
-
         <section class="two_images">
             <div class="two_images_left">
                 <div class="two_images_left_text">
-                    <!--porque pones en la clase img?? si no hay imagen dentro-->
-                    <!--es el texto que va encima de la imagen, por eso le puse img, pero la cambie y elegi mejor nombre-->
+                        <!--porque pones en la clase img?? si no hay imagen dentro-->
+                        <!--es el texto que va encima de la imagen, por eso le puse img, pero la cambie y elegi mejor nombre-->
                     <h3 class="two_images_left_title">¿Conoces las ventajas de ser accionista?</h3>
                     <p>Accede al espacio del accionista<br> y descubre las iniciativas a tu<br> alcance</p>
                 </div>
@@ -242,7 +246,7 @@
                 <img class="two_images_img" src="img/imgIndex/esp-540x193-Best-Digital-Bank-Euromoney2.gif" alt="">
             </div>
         </section>
-
+       
     </div>
 
     <footer>
@@ -286,7 +290,7 @@
         <div class="footerDown">
             <div class="contenedor-footerDown">
                 <div class="footerImg">
-                    <a href="https://www.caixabank.com/comunicacion/index_es.html"><img src="img/logo_footer.png" alt=""></a>
+                    <a href="https://www.caixabank.com/comunicacion/index_es.html"><img src="img/footer/logo_footer.png" alt=""></a>
                     <div class="footerText">
                         <ul>
                             <li><a href="#">Mapa del Sitio </a></li>
