@@ -26,7 +26,7 @@ video {
     border: none;
 }
 
-body, body{
+body {
 	font-family: Arial, sans-serif;
 	font-size:  14px;
 	width:  100%;
@@ -554,6 +554,7 @@ footer {
 .footerUp .contenedor-footerUp{
 	width:  80%;
 	margin:  0 auto;
+	padding-left:  80px;
 	height:  100%;
 }
 
@@ -572,7 +573,6 @@ footer {
 .footerUp .contenedor-footerUp h2 {
 	text-transform: uppercase;
     font-size: 1em;
-    padding-left: 39px;
     font-weight: 700;
     text-align: left;
 }
@@ -580,7 +580,7 @@ footer {
 .footerUp .contenedor-footerUp div {
 	display:  block;
 	float:  left;
-	padding: 25px 2px;
+	padding: 25px 35px;
 	display: inline-block;
 	text-align: left;
 	width:  32%;
@@ -613,12 +613,12 @@ footer {
 
 .footerUp .contenedor-footerUp div:last-child{
 	margin-right: 5px;
-	width:  20%;
+	width:  26%;
 }
 
 .footerDown {
 	width:  100%;
-	/*padding: 5px 10%;*/
+	padding-top: 10px;
 	height:  80px;
 	margin:  0 auto;
 	background-color: #ebebeb;
@@ -626,7 +626,7 @@ footer {
 }
 
 .contenedor-footerDown {
-	width:  1050px;
+	width:  65%;
 	margin: 0 auto;
 	height:  100%;
 }
@@ -676,7 +676,7 @@ footer {
 
 .redes {
 	display:  inline-block;
-	width: 50%;
+	width: 40%;
 	float:  left;
 	text-align:  right;
 }
@@ -940,7 +940,7 @@ footer {
 }
 
 .directores {
-	width:  77%;
+	width:  1089px;
 	margin:  25px auto;
 
 }
@@ -948,7 +948,6 @@ footer {
 .directores .caja_directores{
 	background-color: #33adde;
 	width:  340px;
-	min-width: 300px;
 	height:  110px;
 	color:  #fff;
 	display:  inline-block;
@@ -1244,17 +1243,6 @@ footer {
 /*FIN banca responsable*/
 
 /*Media queries*/
-
-
-@media screen and (max-width: 1400px) {
-
-	/*index*/
-	/*.news_index_content {
-		width: 95%;
-		margin:  0 auto;
-	}*/
-}
-
 @media screen and (max-width: 1200px) {
 	.banca_proxima_img {
 		padding-left:  0;
@@ -1287,11 +1275,34 @@ footer {
 	}
 
 	/*footer*/
-	.contenedor-footerUp, .contenedor-footerDown {
+	.contenedor-footerUp  {
 		width:  800px;
 		margin:  0 auto;
 	}
 
+	.contenedor-footerDown {
+		width:  75%;
+		margin:  0 auto;
+	}
+
+	.footerUp .contenedor-footerUp {
+        padding-left: 0; 
+	}
+	.redes {
+		width:  27%;
+	}
+
+	.footerImg {
+		width:  55%;
+	}
+
+	/*contacto*/
+	.directores .caja_directores {
+		width:  280px;
+	}
+	.directores {
+		width:  930px;
+	}
 }
 
 
@@ -1328,18 +1339,35 @@ footer {
 	.news_index_content {
 		width:  100%;
 	}*/
+
+	/*contacto*/
+	.directores .caja_directores {
+		width:  330px;
+	}
+	.directores {
+		width:  720px;
+		margin:  0 auto;
+	}
 }
 
 
 @media screen and (max-width: 950px) {
-	.footer-left, .footer-center, .footer-right {
-		display:  block;
-		float:  none;
-		width: 100%;
-	}
 
 	.footer-left::after{
 		display: none;
+	}
+
+	/*footer*/
+	.redes, .footerImg {
+		display: flex;
+    	float: none;
+    	margin: 0 auto;
+    	width: 100%;
+    	flex-direction: column;
+    	text-align: center;
+	}
+	.footerImg div.footerText {
+		display:  none;
 	}
 }
 
@@ -1349,17 +1377,7 @@ footer {
 		margin:  10px auto;
 	}
 
-	.right_part, .left_part{
-		margin:  10px auto;
-	}
-	/*footer*/
-	.redes, .footerImg {
-		display: block;
-    	float: none;
-    	margin: 0 auto;
-    	width: 100%;
-    	text-align: center;
-	}
+	
 }
 
 
@@ -1436,17 +1454,41 @@ footer {
 	.footerUp {
 		height:  100%;
 	}
-
-
 }
 
-@media screen and (max-width: 750px ) {
+@media screen and (max-width: 768px ) {
 	/*footer*/
+	.footerUp div.footer-left::before {
+		content:  url('../img/footer/logo_footer.png');
+		width:  100%;
+		height:  auto;
+		margin-top:  25px;
+		margin-left: 30%;
+	}
+
+	.contenedor-footerDown div.footerImg {
+		display:  none;
+	}
+
 	.footerUp div.footer-left, .footerUp div.footer-center, .footerUp div.footer-right {
 		width:  100%;
 		margin:  0 auto;
 		display:  block;
 		float:  none;
+		height:  auto;
+		padding: 0;
+	}
+
+	.footerDown {
+		background:  #f5f6f7;
+	}
+
+	.footerUp div.footer-left h2, .footerUp div.footer-center h2, .footerUp div.footer-right h2 {
+		text-align: center;
+	}
+
+	.footerUp div.footer-left ul, .footerUp div.footer-center ul, .footerUp div.footer-right ul {
+		display:  none;
 	}
 
 	.footerUp .contenedor-footerUp div:last-child {
@@ -1460,7 +1502,8 @@ footer {
 	.one_right_part {
 		display:  block;
 		float:  none;
-		}
+	}
+
 	.agenda {
 		float: none;
 		margin: 0 auto;
@@ -1483,10 +1526,32 @@ footer {
 	.agenda .title_h2, .one_right_part h2 {
 		text-align: center;
 	}
+
+	/*contacto*/
+	.directores {
+		width:  90%;
+		margin:  0 auto;
+	}
+
+	.directores .caja_directores {
+		width:  300px; 
+	}
 }
 
+@media screen and (max-width: 710px ) {
+	/*contacto*/
+	.directores {
+		width:  100%;
+		display: flex;
+		flex-direction: column;
+	}
+	.directores .caja_directores {
+		width:  90%; 
+		margin:  3% auto;
+	}
+}
 
-@media screen and (max-width: 450px ) {
+@media screen and (max-width: 480px ) {
 	.index_content .news_index_content div.news_50, .news_index_content  div.news_25 {
 		width:  80%;
 		display: block;
