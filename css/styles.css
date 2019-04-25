@@ -54,18 +54,16 @@ header {
 
 /*MENU*/
 .menu {
-	float:  left;
-	margin-left: 7%;
+	/*margin-left: -21px;*/
 	color:  #0097d5;
-	width: 20%;
+	/*width: 20%;*/
 	height:  30px;
-	display:  inline-block;
 }
 
 .menu_link::before {
 	position: absolute;
 	top: 14px;
-	left: 8%;
+	margin-left: -30px;
 	content: "";
 	height: 0.15em;
 	width: 0.7em;
@@ -145,9 +143,10 @@ header {
 
 /*logoHeader*/
 .logoHeader {
-	width:  18%;
+	/*width:  48%;
 	display:  inline-block;
 	float:  left;
+	justify-content: space-around;*/
 }
 
 .logoHeader, .menu, .headerRight {
@@ -180,11 +179,12 @@ header {
 
 /*header right*/
 .headerRight {
-	width:  35%;
+	/*width:  35%;
 	float:  left;
-	text-align:  right;
+	text-align:  right;*/
 	height:  30px;
 	margin-right:  0;
+	justify-content:  space-around;
 }
 
 .searchForm, .rss, .selectLang {
@@ -236,9 +236,17 @@ header {
 	background-color:  #fff;
 	padding:  7px 5% 0;
 	z-index:  1000;
+	display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
 }
 
 .fixed_index {
+	display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
     margin-top: -15px;
     width: 100%;
     height: 53px;
@@ -689,10 +697,6 @@ footer {
 
 /**fin FOOTER**/
 
- .nuestros_patrocinios, .contacto_content, .paralympics, .calidad_content {
-	width:  100%;
-} 
-
 /*section INDEX*/
 .index_content {
 	margin-top:  15px;
@@ -987,7 +991,8 @@ footer {
 				font-weight:  800;
 				text-align:  right;	
 				font-size:  1em;
-				right:  135px;
+				width:  260px;
+				right:  2%;
 				top: 125px;	
 				text-transform: uppercase;	
 				z-index:  100;
@@ -1017,7 +1022,7 @@ footer {
 }
 
 .paralympics_img_content{
-	width:  50%;
+	width:  45%;
 }
 
 .paralympics_image {
@@ -1028,14 +1033,15 @@ footer {
 
 .paralympics_text{
 	border-left:  4px solid #0097d4;
-	width:  50%;
+	margin-right:  3px;
+	width:  47%;
 	padding:  0 20px;
 	padding-left: 5rem;
+	margin-bottom:  20px;
 }
 
 .video_content {
 	clear:  both;
-	
 }
 
 .video {
@@ -1303,6 +1309,11 @@ footer {
 	.directores {
 		width:  930px;
 	}
+
+	/*paralimpico*/
+	.paralympics_image {
+		margin-top:  20px;
+	}
 }
 
 
@@ -1348,6 +1359,11 @@ footer {
 		width:  720px;
 		margin:  0 auto;
 	}
+
+	/*paralimpico*/
+	.paralympics_image {
+		margin-top:  30px;
+	}
 }
 
 
@@ -1377,7 +1393,10 @@ footer {
 		margin:  10px auto;
 	}
 
-	
+	/*deporteParalimpico*/
+	.paralympics_image {
+		margin-left:  0;
+	}
 }
 
 
@@ -1453,6 +1472,11 @@ footer {
 	/*footer*/
 	.footerUp {
 		height:  100%;
+	}
+
+	/*paralimpico*/
+	.paralympics_image {
+		margin-top:  60px;
 	}
 }
 
@@ -1536,6 +1560,17 @@ footer {
 	.directores .caja_directores {
 		width:  300px; 
 	}
+
+	/*header*/
+	.menu_link p {
+		display: none;
+	}
+
+	.menu_link::before {
+		height:  0.15em;
+		width:  1.9em;
+		box-shadow: 0 0.8em 0 0 #0097d5, 0 0.4em 0 0 #0097d5 ;
+	}
 }
 
 @media screen and (max-width: 710px ) {
@@ -1549,6 +1584,42 @@ footer {
 		width:  90%; 
 		margin:  3% auto;
 	}
+
+	/*deporteParalimpico*/
+	.compromet_content, .inconform_content {
+		display:  flex;
+		flex-direction:  column;
+		position:  relative;
+	}
+
+	.paralympics_text {
+		border-left:  none;
+		padding-left:  0;
+	}
+
+	.paralympics_img_content, .paralympics_text {
+		width:  95%;
+		position:  absolute;
+	}
+
+	.paralympics_image {
+		margin-top:  295px;
+		margin-left:  13%;
+	}
+
+	.paralympics_text {
+		margin-top:  15px;
+		padding-right:  55px;
+	}
+
+	.video_content {
+		margin-top:  350px;
+	}
+
+	.video_compromet {
+		margin-top:  504px;
+	}
+
 }
 
 @media screen and (max-width: 480px ) {
@@ -1556,6 +1627,46 @@ footer {
 		width:  80%;
 		display: block;
 		margin:  0 auto;
+	}
+
+	/*header*/
+	.logoHeader img {
+		width:  180px;
+	}
+	
+	.headerRight {
+		display:  flex;
+		flex-direction: column;
+		position: relative;
+	}
+
+	.searchForm {
+		position: absolute;
+		margin-top:  21px;
+		margin-left: -25px;
+	}
+	
+	.rss {
+		position: absolute;
+		margin-top:  25px;
+	}
+
+	/*bancaParalimpico*/
+
+	.paralympics_img_content {
+		margin-left:  -66px;
+	}
+
+	.inconform_img {
+		margin-top:  170px;
+	}
+
+	.compromet_img {
+		margin-top:  100px;
+	}
+
+	.video_content .video {
+		margin-top:  142px;
 	}
 }
 
