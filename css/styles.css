@@ -1007,8 +1007,8 @@ footer {
 }
 
 .inconform_content {
-	padding:  80px 0 200px 10%;
-	margin: 25px 0 60px;
+	padding:  80px 0 20px 5%;
+	margin: 25px 0 5px;
 }
 
 .compromet_content {
@@ -1022,7 +1022,7 @@ footer {
 }
 
 .paralympics_img_content{
-	width:  45%;
+	width:  40%;
 }
 
 .paralympics_image {
@@ -1034,7 +1034,7 @@ footer {
 .paralympics_text{
 	border-left:  4px solid #0097d4;
 	margin-right:  3px;
-	width:  47%;
+	width:  50%;
 	padding:  0 20px;
 	padding-left: 5rem;
 	margin-bottom:  20px;
@@ -1476,7 +1476,11 @@ footer {
 
 	/*paralimpico*/
 	.paralympics_image {
-		margin-top:  60px;
+		margin-top:  65px;
+	}
+
+	.paralympics_img_content {
+		width:  45%;
 	}
 }
 
@@ -1561,19 +1565,10 @@ footer {
 		width:  300px; 
 	}
 
-	/*header*/
-	.menu_link p {
-		display: none;
-	}
-
-	.menu_link::before {
-		height:  0.15em;
-		width:  1.9em;
-		box-shadow: 0 0.8em 0 0 #0097d5, 0 0.4em 0 0 #0097d5 ;
-	}
 }
 
 @media screen and (max-width: 710px ) {
+
 	/*contacto*/
 	.directores {
 		width:  100%;
@@ -1620,9 +1615,33 @@ footer {
 		margin-top:  504px;
 	}
 
+	.video_inconform {
+		margin-top:  530px;
+	}
+
+}
+
+@media screen and (max-width: 520px) {
+	/*header*/
+	.menu_link span {
+		display: none;
+	}
+
+	.menu_link::before {
+		height:  0.25em;
+		width:  1.7em;
+		box-shadow: 0 1em 0 0 #0097d5, 0 0.5em 0 0 #0097d5 ;
+	}
+	
 }
 
 @media screen and (max-width: 480px ) {
+	/****header****/
+	.fixed {
+		width:  100%;
+		padding:  7px 0 0 30px;
+	}
+
 	.index_content .news_index_content div.news_50, .news_index_content  div.news_25 {
 		width:  80%;
 		display: block;
@@ -1646,16 +1665,16 @@ footer {
 
 	/*bancaParalimpico*/
 
-	.paralympics_img_content {
-		margin-left:  -66px;
-	}
-
 	.inconform_img {
-		margin-top:  170px;
+		margin-top:  143px;
 	}
 
 	.compromet_img {
-		margin-top:  100px;
+		margin-top:  65px;
+	}
+
+	.paralympics_image {
+		margin-left:  0;
 	}
 
 	.video_content .video {
