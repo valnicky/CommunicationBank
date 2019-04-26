@@ -1385,6 +1385,22 @@ footer {
 	.footerImg div.footerText {
 		display:  none;
 	}
+
+	/**********patrocinios************/
+	.logos_section {
+		display:  flex;
+		flex-direction: column;
+		justify-content: center;
+	}
+
+	.logos {
+		width:  100%;
+		margin-bottom: 60px;
+	}
+
+	.nuestros_patrocinios .margin_15 {
+		margin: 10px;
+	}
 }
 
 @media screen and (max-width: 900px) {
@@ -1636,6 +1652,12 @@ footer {
 }
 
 @media screen and (max-width: 480px ) {
+	/********index***********/
+	.two_images_img {
+		min-width:  357px;
+	}
+
+
 	/****header****/
 	.fixed {
 		width:  100%;
@@ -1648,7 +1670,6 @@ footer {
 		margin:  0 auto;
 	}
 
-	/*header*/
 	.logoHeader img {
 		width:  180px;
 	}
