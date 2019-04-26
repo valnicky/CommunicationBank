@@ -1633,22 +1633,15 @@ footer {
 	.logoHeader img {
 		width:  180px;
 	}
-	
-	.headerRight {
-		display:  flex;
-		flex-direction: column;
-		position: relative;
-	}
 
 	.searchForm {
 		position: absolute;
-		margin-top:  21px;
-		margin-left: -25px;
+		margin-top:  26px;
+		margin-right:  2%;
 	}
-	
-	.rss {
-		position: absolute;
-		margin-top:  25px;
+
+	.menu_link span {
+		display: none;
 	}
 
 	/*bancaParalimpico*/
@@ -1667,6 +1660,15 @@ footer {
 
 	.video_content .video {
 		margin-top:  142px;
+	}
+
+	/***calidad***/
+	.banca_proxima_img img {
+		width:  100%;
+	}
+
+	.calidad_2images img {
+		width:  100%;
 	}
 }
 
