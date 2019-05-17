@@ -1156,6 +1156,8 @@ footer {
 	background-color: #0097d4;
 	height:  80px;
 	width: 280px;
+	margin: 0 auto;
+	padding-top:  30px;
 }
 
 .btn_blue_link {
@@ -1171,6 +1173,7 @@ footer {
 
 .text_margin {
 	margin:  25px 5%;
+	text-align: justify;
 }
 
 .img_text_content {
@@ -1181,12 +1184,16 @@ footer {
 	position:  absolute;
 	font-size:  2.5em;
 	font-weight: bold;
-	background-color:  #000;
-	color:  yellow;
 	text-transform: uppercase;
 	top:  50px;
 	left:  80px;
 	z-index:  10;
+	line-height:  1.3em;
+}
+
+.act_resp_title span:first-child {
+	color:  yellow;
+	background-color:  #000;
 }
 
 .act_resp_img {
@@ -1231,7 +1238,7 @@ footer {
 	font-size:  1em;
 }
 
-.actSocial_text {
+.subtitle_text {
 	width:  75%;
 	margin:  20px 15%;
 	text-align: center;
@@ -1420,7 +1427,11 @@ footer {
 	.nuestros_patrocinios .text_h2 {
 		margin-top: 0;
 	}
-
+	/******bca responsable********/
+	.logos {
+		height:  auto;
+		margin-bottom:  20px;
+	}
 }
 
 @media screen and (max-width: 900px) {
